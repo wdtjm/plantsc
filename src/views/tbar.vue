@@ -1,0 +1,100 @@
+<template>
+    <div class="tbar" :class="{'shadow':isVisable}" @mouseenter="mousein" @mouseleave="mouseout">
+        <div class="left-title">
+            PlantDB
+        </div>
+        <div>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <g fill="none" stroke="rgb(44,162,95)">
+                <path stroke-width="4" d="m5 40 l215 0" />
+            </g>
+            </svg> -->
+        <el-menu
+        :default-active="activeIndex2"
+        @mouseenter="handleMousein"
+        class = "right-menu"
+        mode="horizontal"
+        @select="handleSelect"
+        background-color=rgb(0,0,0,0)
+        text-color="#000"
+        active-text-color="rgb(44,162,95)" >
+        <el-menu-item index="0">PlantDb</el-menu-item>
+        <el-menu-item index="1">Home</el-menu-item>
+        <el-submenu index="2">
+            <template slot="title">Tools</template>
+            <el-menu-item index="2-1">Tool1</el-menu-item>
+            <el-menu-item index="2-2">Tool2</el-menu-item>
+            <el-menu-item index="2-3">Tool3</el-menu-item>
+        </el-submenu>
+        <el-menu-item index="3" >brouser</el-menu-item>
+        <el-menu-item index="4">Help</el-menu-item>
+        </el-menu>
+    </div>
+    </div>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            isVisable:false,
+            scrollTop:0
+        }
+    },
+    methods: {
+        mousein(){
+            this.isVisable=true;
+        },
+        mouseout(){
+            if(this.scrollTop==0)
+            this.isVisable=false;
+        },
+                //监听窗口滚动
+        windowScrollListener() {
+        //获取操作元素最顶端到页面顶端的垂直距离
+        this.scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+        if (this.scrollTop >= 1) {
+            this.isVisable = true; //大于1时显示元素
+        }
+        if (this.scrollTop < 1) {
+            this.isVisable = false; //小于1时隐藏元素
+        }
+        }
+    },
+    created(){
+                //添加滚动监听事件
+        //在窗口滚动时调用监听窗口滚动方法
+        window.addEventListener('scroll', this.windowScrollListener);
+    },
+    destroyed() {
+    //离开页面时删除该监听
+        window.removeEventListener('scroll', this.windowScrollListener)
+    }
+}
+</script>
+
+<style>
+.tbar{
+    transition: all 1s ease;
+    width:100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.right-menu{
+    width:100%;
+    height: 100%;
+    border-bottom: 0 !important;
+}
+.left-title{
+    margin-left: 20px;
+}
+.shadow{
+    background-color: hsla(0, 0%, 71%, 0.6);
+}
+#el-menu-item :hover{
+    text-decoration: underline;
+}
+</style>
