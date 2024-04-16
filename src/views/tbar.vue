@@ -18,17 +18,19 @@
         background-color=rgb(0,0,0,0)
         text-color="#000"
         active-text-color="rgb(44,162,95)" >
-        <el-menu-item index="0">PlantDb</el-menu-item>
-        <el-menu-item index="1">Home</el-menu-item>
-        <el-submenu index="2">
+        <el-menu-item  class="t0" index="0">PlantDb</el-menu-item>
+        <el-menu-item class="t1" index="1">Home</el-menu-item>
+        <el-submenu class="t2" index="2">
             <template slot="title">Tools</template>
             <el-menu-item index="2-1">Tool1</el-menu-item>
             <el-menu-item index="2-2">Tool2</el-menu-item>
             <el-menu-item index="2-3">Tool3</el-menu-item>
         </el-submenu>
-        <el-menu-item index="3" >brouser</el-menu-item>
-        <el-menu-item index="4">Help</el-menu-item>
+        <el-menu-item class="t3" index="3" >brouser</el-menu-item>
+        <el-menu-item class="t4" index="4">Help</el-menu-item>
+        <div id="indicator"></div>
         </el-menu>
+        
     </div>
     </div>
 </template>
@@ -94,7 +96,40 @@ export default {
 .shadow{
     background-color: hsla(0, 0%, 71%, 0.6);
 }
-#el-menu-item :hover{
-    text-decoration: underline;
+
+.el-menu-item.t0:hover ~ #indicator{
+    opacity: 1;
+}
+
+.el-menu-item.t1:hover ~ #indicator{
+    opacity: 1;
+    left:25%
+}
+
+.el-submenu.t2:hover ~ #indicator{
+    opacity: 1;
+    left:45%
+}
+
+.el-menu-item.t3:hover ~ #indicator{
+    opacity: 1;
+    left:65%
+}
+
+.el-menu-item.t4:hover ~ #indicator{
+    opacity: 1;
+    left:85%
+}
+
+#indicator{
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: green;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+    opacity: 0;
 }
 </style>
