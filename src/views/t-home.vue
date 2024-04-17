@@ -41,7 +41,7 @@
         activeIndex: '1',
         activeIndex2: '1',
         plants:[
-          {'name':'rice','url':'https://biobigdata.nju.edu.cn/scplantdb/static/home_species/tair_square.png'},
+          {'name':'rice','url':'https://biobigdata.nju.edu.cn/scplantdb/static/home_species/tair_square.png','description':'this is a rice'},
         ]
       };
     },
@@ -74,7 +74,7 @@
   }
   .mainPage{
     width:100%;
-    height: calc(130vh);
+    height: calc(170vh);
   }
   .footer{
     width:100%;

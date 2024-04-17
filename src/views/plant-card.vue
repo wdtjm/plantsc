@@ -2,13 +2,16 @@
     <div class="plant">
         <img class="plantImg" :src="plant.url"/>
         <div class="plantTitle">{{ plant.name }}</div>
-    </div>
+        <div class="caption">
+            <div class="caption-description">{{ plant.description }}</div>
+        </div>
+    </div>   
 </template>
 
 <script>
 export default {
     props:{
-	    plant:{           //这个就是父组件中子标签自定义名字
+	    plant:{          
 	      type:Object,
 	      required:true
 	    }
@@ -19,19 +22,36 @@ export default {
 
 <style>
 .plantImg{
-    max-width: 120px;
-    max-height: 120px;
+    padding-top: 10px;
+    max-width: 100px;
+    max-height: auto;
     transition: all 0.4s ease;
 }
 .plantTitle{
     font-weight: 500;
 }
 .plant{
-    border:3px solid green;
+    overflow: hidden;
+    background-color: hsla(133, 34%, 64%, 0.2);
+    border-radius: 20px;
+    margin: 10px;
 
 }
 .plant:hover{
     scale: 1.05;
     background-color: aliceblue;
+}
+.caption{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    top:100%;
+    background-color: hsla(147,25%,82%,50%);
+    opacity: 0;
+    transition:transform 0.4s ease-out;
+}
+.plant:hover > .caption{
+    transform: translateY(-100%);
+    opacity: 1;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="tbar" :class="{'shadow':isVisable}" @mouseenter="mousein" @mouseleave="mouseout">
+    <div class="tbar" :class="{'shadow':isVisable,'barhide':isHide}"  @mouseenter="mousein" @mouseleave="mouseout">
         <div class="left-title">
             PlantDB
         </div>
@@ -40,7 +40,9 @@ export default {
     data() {
         return {
             isVisable:false,
-            scrollTop:0
+            scrollTop:0,
+            isHide:0,
+            lastscrollTop:0
         }
     },
     methods: {
@@ -61,6 +63,13 @@ export default {
         if (this.scrollTop < 1) {
             this.isVisable = false; //小于1时隐藏元素
         }
+        if(this.scrollTop>this.lastscrollTop)
+        {
+            this.isHide = true;
+        }else{
+            this.isHide = false;
+        }
+        this.lastscrollTop = this.scrollTop;
         }
     },
     created(){
@@ -78,12 +87,16 @@ export default {
 <style>
 .tbar{
     transition: all 1s ease;
+
     width:100%;
     height: 100%;
     display:flex;
     align-items: center;
     justify-content: space-between;
 
+}
+.barhide{
+    transform: translateY(-100%);
 }
 .right-menu{
     width:100%;
