@@ -20,8 +20,14 @@
           <div class="row">
             <li v-for="index in 6" :key="index">
             <PlantCard v-bind:plant="plants[12+index-1]"></PlantCard>
-          </li>
+            </li>
           </div>
+          <div class="row">
+            <li>
+            <PlantCardt v-bind:plant="plants[0]"></PlantCardt>
+            </li>
+          </div>
+          
         </ul>
       </div>
     </div>
@@ -33,9 +39,10 @@
 <script>
   import tbar from './tbar.vue';
   import PlantCard from './plant-card.vue';
+  import PlantCardt from './plant-card-t.vue';
   export default {
 
-    components:{tbar,PlantCard},
+    components:{tbar,PlantCard,PlantCardt},
     data() {
       return {
         activeIndex: '1',

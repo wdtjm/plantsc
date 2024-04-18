@@ -39,16 +39,23 @@ export default {
 }
 .plant:hover{
     scale: 1.05;
-    background-color: aliceblue;
+    background-color: hsla(133, 34%, 86%, 0.4);
+    cursor: pointer;
 }
 .caption{
     position: absolute;
     width: 100%;
-    height: 90px;
+    height: 100%;
     top:100%;
     background-color: hsla(147,25%,82%,50%);
     opacity: 0;
     transition:transform 0.4s ease-out;
+    display:flex;
+}
+.caption-description{
+    padding: 10px;
+    align-content: center;
+    text-align: center;
 }
 .plant:hover > .caption{
     transform: translateY(-100%);
