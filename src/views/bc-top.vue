@@ -108,7 +108,7 @@ export default {
     margin-top: 7%;
     align-items: center;
     padding: 30px;
-    background-color: hsla(0,0%,90%,40%);
+    background-color: hsla(0,0%,100%,80%);
 }
 .intro-layout{
     width:100%;
@@ -200,10 +200,12 @@ ul{
     left: 50%;
 }
 .intro-card-box{
-    width: 100%;
+    width: 90%;
     display: flex;
+    /* background-color: hsla(0,0%,80%,50%); */
     flex-direction: row;
     justify-content: center;
+    /* color:white; */
     align-items: center;
 }
 .intro-card-box .left-box{
@@ -229,7 +231,8 @@ ul{
 }
 .intro-card .time{
     font-size: 13px;
-    color: hsl(0,0%,40%);
+    color:hsl(0,0%,40%);
+    /* color: hsla(0,0%,80%,60%); */
     margin: 10px;
 }
 .intro-card .num{
