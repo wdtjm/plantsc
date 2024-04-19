@@ -6,14 +6,11 @@
 
 <script>
 
-import test from './views/test.vue';
-import etable from './views/e-table.vue';
-import tree from './views/tree.vue';
-import layout from './views/t-layout.vue';
+
 import home from './views/t-home.vue';
 
 export default{
-  components:{test,etable,tree,layout,home},
+  components:{home},
   data() {
     return {
       requestData:"hellolll"

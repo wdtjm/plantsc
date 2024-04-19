@@ -1,9 +1,10 @@
 <template>
   <div class = 'container'>
+    <bcTop></bcTop>
     <div class="head">
       <tbar></tbar>
     </div>
-    <div class="mainPage">
+    <div class="mainPage" id="mainp">
       <div class="underbar">
       </div>
       <div  class="Main">
@@ -22,13 +23,11 @@
             <PlantCard v-bind:plant="plants[12+index-1]"></PlantCard>
             </li>
           </div>
-          <div class="row">
-            <li>
-            <PlantCardt v-bind:plant="plants[0]"></PlantCardt>
-            </li>
-          </div>
-          
+
         </ul>
+        <div>
+          test
+        </div>
       </div>
     </div>
     <div class="footer">
@@ -39,10 +38,10 @@
 <script>
   import tbar from './tbar.vue';
   import PlantCard from './plant-card.vue';
-  import PlantCardt from './plant-card-t.vue';
+  import bcTop from './bc-top.vue';
   export default {
 
-    components:{tbar,PlantCard,PlantCardt},
+    components:{tbar,PlantCard,bcTop},
     data() {
       return {
         activeIndex: '1',
@@ -65,12 +64,14 @@
   }
 </script>
 <style>
+
   .container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding:0;
     margin:0;
+    scroll-snap-type: y mandatory;
   }
   
   .head{
@@ -82,6 +83,7 @@
   .mainPage{
     width:100%;
     height: calc(170vh);
+    scroll-snap-align: start;
   }
   .footer{
     width:100%;
