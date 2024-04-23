@@ -5,33 +5,15 @@
       <tbar></tbar>
     </div>
     <div class="mainPage" id="mainp">
-      <div class="underbar">
-      </div>
       <div  class="Main">
-        <ul class="Cards">
-          <div class="row">
-            <li v-for="index in 6" :key="index">
-            <PlantCard v-bind:plant="plants[index-1]"></PlantCard></li>
-            </div>
-          <div class="row">
-            <li v-for="index in 6" :key="index">
-            <PlantCard v-bind:plant="plants[6+index-1]"></PlantCard>
-          </li>
+        <div class="card-and-bar">
+          <div class="cardbar">
+          Browse gene expression patterns over 38 plants
           </div>
-          <div class="row">
-            <li v-for="index in 6" :key="index">
-            <PlantCard v-bind:plant="plants[12+index-1]"></PlantCard>
-            </li>
-          </div>
-
-        </ul>
-        <div>
-          test
+          <cards></cards>
         </div>
+        <foot></foot>
       </div>
-    </div>
-    <div class="footer">
-
     </div>
   </div>
 </template>
@@ -39,16 +21,20 @@
   import tbar from './tbar.vue';
   import PlantCard from './plant-card.vue';
   import bcTop from './bc-top.vue';
+  import foot from './foot.vue';
+  import copyright from './copyright.vue';
+  import cards from './cards.vue';
+
+  import {test,message} from '@/js/test';
+
   export default {
 
-    components:{tbar,PlantCard,bcTop},
+    components:{tbar,PlantCard,bcTop,foot,copyright,cards},
     data() {
       return {
         activeIndex: '1',
         activeIndex2: '1',
-        plants:[
-          {'name':'rice','url':'https://biobigdata.nju.edu.cn/scplantdb/static/home_species/tair_square.png','description':'this is a rice'},
-        ]
+        
       };
     },
     methods: {
@@ -57,10 +43,10 @@
       }
     },
     mounted(){
-      for (let index = 0; index < 15; index++) {
-        this.plants.push(this.plants[0]);
-      }
+      test();
+      console.log('message:',message);
     }
+    
   }
 </script>
 <style>
@@ -69,53 +55,71 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding:0;
-    margin:0;
+    width: 1150px;
+    padding:auto;
+    margin:auto;
     scroll-snap-type: y mandatory;
+    
   }
   
   .head{
     position:fixed;
-    top:0;
-    width:100%;
+    width:1050px;
     height: 60px;
+    left: 0; top: 0; right: 0; bottom: 0;
+    margin: auto;
+    margin-top: 0;
   }
   .mainPage{
+    
     width:100%;
-    height: calc(170vh);
     scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
   }
   .footer{
     width:100%;
   }
   .Main{
+    margin-top: 60px;
+    width: 95%;
     display:flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    background-color: white;
+    margin-bottom:30px;
   }
-  .underbar{
-    height: 60px;
-    width: 100%;
-    background-color: hsla(133, 34%, 64%, 0.2);
-  }
-  .Cards{
-
-    display:flex;
-    text-align: center;
-    align-content: center;
-
-    list-style-type:none;
-    flex-direction: column;
-  }
-  .Cards li{
-    width:150px;
-    height: 150px;
-    position: relative;
-    text-align: center;
-  }
-  .row{
+  .cardbar{
+    font-family: "Lucida Console", Courier, monospace;
+    
+    margin: 20px;
+    margin-top: 40px;
+    /* padding-left: 20px; */
+    height: 40px;
+    /* width: 100%; */
+    width: 975.21px;
+    font-weight: 500;
+    font-size: xx-large;
+    text-align: left;
     display: flex;
+    padding: 10px;
+    align-items: center;
+    /* background-color: hsla(133, 34%, 64%, 0.4); */
+    background-color: hsla(123,47.6%,91.8%,100%);
   }
+  .card-and-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rgb(229,229,229);
+    border-radius: 10px;
+  }
+ 
 </style>

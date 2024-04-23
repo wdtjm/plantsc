@@ -63,14 +63,17 @@ export default {
         if (this.scrollTop < 1) {
             this.isVisable = false; //小于1时隐藏元素
         }
-        if(this.scrollTop>this.lastscrollTop)
-        {
-            this.isHide = true;
-        }else{
-            this.isHide = false;
+        /* var mainp=document.querySelector('#mainp')
+        if( (this.scrollTop>this.lastscrollTop)&&( this.scrollTop<mainp.offsetTop)){
+            mainp.scrollIntoView({
+                behavior: "smooth", // 定义过渡动画 instant立刻跳过去 smooth平滑过渡过去
+                block: "start", // 定义垂直滚动方向的对齐 start顶部（尽可能）  center中间（尽可能）  end（底部）
+                inline: "center", // 定义水平滚动方向的对齐
+            });
         }
-        this.lastscrollTop = this.scrollTop;
-        }
+        this.lastscrollTop=this.scrollTop; */
+    }
+        
     },
     created(){
                 //添加滚动监听事件
@@ -90,10 +93,12 @@ export default {
 
     width:100%;
     height: 100%;
+    /* margin-left: 2.5%;
+    margin-right: 2.5%; */
     display:flex;
     align-items: center;
     justify-content: space-between;
-
+    
 }
 .barhide{
     transform: translateY(-100%);

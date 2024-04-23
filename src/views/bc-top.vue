@@ -1,6 +1,6 @@
 
 <template>
-  <div class="background-img">
+  <div class="background-img" :class="{'bc-mobile':ismobile}">
     <div class="introduction">
         <div class="intro-layout">
             <div class="title">Introduction of PlantscRNAdb</div>
@@ -18,11 +18,12 @@
             <el-button class="btn">Release Info</el-button>
         </div>
     </div>
-    <img class="arrowicon" src="../assets/down-arrow.png" @click="scroll">
+    <img class="arrowicon" src="../assets/down-arrow-black.png" @click="scroll">
     <div class="bottom">
-        <div class="bottomline" />
+        
         <!-- <div class="bottomline-c"/> -->
         <div class="intro-card-box">
+            <div class="bottomline" />
             <div class="left-box">
                 <div class="intro-card">
                     <div class="type">SPECIES</div>
@@ -53,25 +54,56 @@
 </template>
 
 <script>
+import { isMobile } from 'react-device-detect';
 export default {
+    data(){
+        return{
+            ismobile:isMobile
+        }
+    },
     methods:{
         scroll(){
             document.querySelector('#mainp').scrollIntoView({
-        behavior: "smooth", // 定义过渡动画 instant立刻跳过去 smooth平滑过渡过去
-        block: "start", // 定义垂直滚动方向的对齐 start顶部（尽可能）  center中间（尽可能）  end（底部）
-        inline: "center", // 定义水平滚动方向的对齐
+            behavior: "smooth", // 定义过渡动画 instant立刻跳过去 smooth平滑过渡过去
+            block: "start", // 定义垂直滚动方向的对齐 start顶部（尽可能）  center中间（尽可能）  end（底部）
+            inline: "center", // 定义水平滚动方向的对齐
             });
         }
-    }
+    },
+    mounted(){
+        var ratio = 0,//浏览器当前缩放比
+                screen = window.screen,//获取屏幕
+                ua = navigator.userAgent.toLowerCase();//判断登陆端是pc还是手机
+
+            if (window.devicePixelRatio !== undefined) {
+                ratio = window.devicePixelRatio;
+            }
+            else if (~ua.indexOf('msie')) {
+                if (screen.deviceXDPI && screen.logicalXDPI) {
+                    ratio = screen.deviceXDPI / screen.logicalXDPI;
+                }
+            }
+            else if (window.outerWidth !== undefined && window.innerWidth !== undefined) {
+                ratio = window.outerWidth / window.innerWidth;
+            }
+
+            if (ratio) {
+                ratio = Math.round(ratio * 100);
+            }
+            if (ratio!=100) {
+                alert("您当前的窗口缩放比例为" + ratio + "%建议您的窗口比例调为100%，窗口比例不为100%可能导致页面排版错乱");//这里layer是layui框架自带弹窗，如果不是layui可以使用alert（）代替；
+            }
+    },
 }
 </script>
 
 <style>
 .background-img{
-  background-image: url('../assets/background03.jpg');
-  width:100%;
+  background-image: url('../assets/background01.png');
+  width:95%;
   height: 100vh;
   position:relative;
+  left: 2.5%;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +115,9 @@ export default {
   flex-direction: column;
   align-items: center;
 }
-
+.bc-mobile{
+    height: 25vh;
+}
 .arrowicon{
     position:absolute;
     bottom: 60px;
@@ -93,45 +127,60 @@ export default {
 }
 @keyframes arrowMove {
   0% { /* 起始状态 */ 
-        opacity: 1;
+        opacity: 0.4;
     }
-  50% { opacity: 0.4;
+  50% { opacity: 0.8;
         transform: translateY(30px);
 }
-  100% { opacity: 1; }
+  100% { opacity: 0.4; }
 }
 .introduction{
 
     display:flex;
+    width: 70%;
+    height: auto;
     flex-direction: column;
     justify-content: start;
     margin-top: 7%;
     align-items: center;
     padding: 30px;
     background-color: hsla(0,0%,100%,80%);
+    /* background-color: hsla(0,0%,95%,50%);; */
 }
 .intro-layout{
     width:100%;
     display:flex;
     flex-direction: column;
     justify-content: start;
-    align-items: flex-start;
+    align-items: center;
 }
 .background-img .title{
-    font-size: 35px;
+    font-size: 40px;
+    margin: 10px;
 }
-.background-img .line{
-
+.line{
   width: 100%;
   height: 2px;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.7em;
   background:hsl(0,0%,50%);
   position: relative;
   text-align: center;
 }
 .background-img .intro{
     color:hsl(0,0%,30%);
+}
+ul li{
+    text-align: start;
+    /* font-size: ; */
+}
+ul{
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 25px;
+    font-size: 18px;
+    /* line-height: 30px; */
 }
 .btn-box{
     margin-top: 10px;
@@ -142,7 +191,8 @@ export default {
     
 }
 .btn-box .btn{
-    border: 3px solid hsla(0,0%,95%,75%);
+    /* border: 3px solid hsla(0,0%,95%,75%); */
+    border: 3px solid hsla(0,0%,50%,75%);
     background-color:transparent;
     width: 180px;
     height: 40px;
@@ -159,21 +209,11 @@ export default {
     border-color: hsla(0,0%,95%,75%);
     color: black;
 }
-ul li{
-    text-align: start;
-    /* font-size: ; */
-}
-ul{
-    margin: 0;
-    padding-top: 10px;
-    padding-left: 20px;
-    /* line-height: 30px; */
-}
+
 .bottom{
-    margin-top: 5%;
-    height: 150px;
+    margin-top: 3%;
+    /* height: 130px; */
     width: 100%;
-    bottom: auto;
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -181,12 +221,12 @@ ul{
 
 }
 .bottomline{
+  position: absolute;
   width: 90%;
   height: 2px;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  top: 5%;
   background:hsl(0,0%,30%);
-  position: absolute;
+  
   text-align: center;
 }
 .bottomline-c{
@@ -200,11 +240,15 @@ ul{
     left: 50%;
 }
 .intro-card-box{
+    position: absolute;
     width: 90%;
     display: flex;
     /* background-color: hsla(0,0%,80%,50%); */
+    /* background-color: hsla(0,0%,90%,60%); */
+    background-color: hsla(0,0%,100%,80%);
     flex-direction: row;
     justify-content: center;
+    bottom: 15%;
     /* color:white; */
     align-items: center;
 }
@@ -232,7 +276,7 @@ ul{
 .intro-card .time{
     font-size: 13px;
     color:hsl(0,0%,40%);
-    /* color: hsla(0,0%,80%,60%); */
+    /* color: hsla(0,0%,90%,70%); */
     margin: 10px;
 }
 .intro-card .num{

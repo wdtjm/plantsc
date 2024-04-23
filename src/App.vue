@@ -50,6 +50,7 @@ export default{
   color: #2c3e50;
   margin: 0;
   padding:0;
+  background-color:hsla(123,47.6%,91.8%,70%)
 }
 
 nav {
