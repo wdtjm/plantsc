@@ -1,0 +1,491 @@
+[
+	{
+		"<template>": "  <div style=\"background-color: white;\">"
+	},
+	{
+		"<template>": "    <div class=\"under-navbar\">"
+	},
+	{
+		"<template>": "    </div>"
+	},
+	{
+		"<template>": "    <div class=\"celltype-container\">"
+	},
+	{
+		"<template>": "      <div>"
+	},
+	{
+		"<template>": "        <el-container>"
+	},
+	{
+		"<template>": "          <el-header class=\"celltype-header\">"
+	},
+	{
+		"<template>": "            <el-select v-model=\"species\" @change=\"speciesChange(species)\" filterable placeholder=\"请选择\">"
+	},
+	{
+		"<template>": "                <el-option"
+	},
+	{
+		"<template>": "                v-for=\"item in plants\""
+	},
+	{
+		"<template>": "                :key=\"item.name\""
+	},
+	{
+		"<template>": "                :label=\"item.name\""
+	},
+	{
+		"<template>": "                :value=\"item.name\">"
+	},
+	{
+		"<template>": "                </el-option>"
+	},
+	{
+		"<template>": "            </el-select>"
+	},
+	{
+		"<template>": "          </el-header>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "          <el-container>"
+	},
+	{
+		"<template>": "            <el-aside v-loading=\"isLoading\" class=\"celltype-aside\">"
+	},
+	{
+		"<template>": "              <asideTree></asideTree>"
+	},
+	{
+		"<template>": "            </el-aside>"
+	},
+	{
+		"<template>": "            <el-main class=\"celltype-main\" >"
+	},
+	{
+		"<template>": "              "
+	},
+	{
+		"<template>": "              <mainPieVue class=\"halfwidth\"></mainPieVue>"
+	},
+	{
+		"<template>": "              <celltypeScatterVue class=\"halfwidth\"></celltypeScatterVue>"
+	},
+	{
+		"<template>": "              "
+	},
+	{
+		"<template>": "            </el-main>"
+	},
+	{
+		"<template>": "          </el-container>"
+	},
+	{
+		"<template>": "        </el-container>"
+	},
+	{
+		"<template>": "      </div>"
+	},
+	{
+		"<template>": "    </div>"
+	},
+	{
+		"<template>": "  </div>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "</template>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "<script>"
+	},
+	{
+		"<template>": "import celltypeheader from '@/components/celltype/celltypeheader.vue';"
+	},
+	{
+		"<template>": "import {plants} from '@/js/plants';"
+	},
+	{
+		"<template>": "import { transfer } from '@/js/TreeToArray';"
+	},
+	{
+		"<template>": "import asideTree from '@/components/celltype/aside-tree.vue';"
+	},
+	{
+		"<template>": "import celltypeMainVue from '@/components/celltype/celltype-main.vue';"
+	},
+	{
+		"<template>": "import eventBus from '@/js/EventBus';"
+	},
+	{
+		"<template>": "import celltypeScatterVue from '../components/celltype/celltype-scatter.vue';"
+	},
+	{
+		"<template>": "import mainPieVue from '../components/celltype/main-pie.vue';"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "export default {"
+	},
+	{
+		"<template>": "  components:{celltypeheader"
+	},
+	{
+		"<template>": "  data(){"
+	},
+	{
+		"<template>": "    return{"
+	},
+	{
+		"<template>": "      species:'Arabidopsis thaliana'"
+	},
+	{
+		"<template>": "      plants:plants"
+	},
+	{
+		"<template>": "      isLoading:'true'"
+	},
+	{
+		"<template>": "      marker:{}"
+	},
+	{
+		"<template>": "    }"
+	},
+	{
+		"<template>": "  }"
+	},
+	{
+		"<template>": "  methods:{"
+	},
+	{
+		"<template>": "    speciesChange(val){"
+	},
+	{
+		"<template>": "      this.getTreeData(val);"
+	},
+	{
+		"<template>": "    }"
+	},
+	{
+		"<template>": "    pushMsg(msg"
+	},
+	{
+		"<template>": "            \t// 通过事件总线发送消息"
+	},
+	{
+		"<template>": "                eventBus.$emit(msg"
+	},
+	{
+		"<template>": "            }"
+	},
+	{
+		"<template>": "    getTreeData(speciesName){"
+	},
+	{
+		"<template>": "      let that = this;"
+	},
+	{
+		"<template>": "      this.$request.post('/api/TreeDataGet/getTree.php'"
+	},
+	{
+		"<template>": "        \"name\":speciesName"
+	},
+	{
+		"<template>": "      })"
+	},
+	{
+		"<template>": "      .then(function (response) {"
+	},
+	{
+		"<template>": "          // 处理成功情况"
+	},
+	{
+		"<template>": "          let requestData = response.data;"
+	},
+	{
+		"<template>": "          //console.log('treedatat response:'"
+	},
+	{
+		"<template>": "          that.$treedata['data'] = requestData;"
+	},
+	{
+		"<template>": "          that.pushMsg('speciesChange'"
+	},
+	{
+		"<template>": "          that.pushMsg('treeClick'"
+	},
+	{
+		"<template>": "          that.isLoading=false"
+	},
+	{
+		"<template>": "          //console.log('that.$treedata:'"
+	},
+	{
+		"<template>": "      })"
+	},
+	{
+		"<template>": "      .catch(function (error) {"
+	},
+	{
+		"<template>": "          // 处理错误情况"
+	},
+	{
+		"<template>": "          console.log(error);"
+	},
+	{
+		"<template>": "      })"
+	},
+	{
+		"<template>": "      .finally(function () {"
+	},
+	{
+		"<template>": "          // 总是会执行"
+	},
+	{
+		"<template>": "      });"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": "  }"
+	},
+	{
+		"<template>": "  mounted(){"
+	},
+	{
+		"<template>": "    eventBus.$on('marker'"
+	},
+	{
+		"<template>": "      /* console.log('celltype:'"
+	},
+	{
+		"<template>": "      if(node.total==0){"
+	},
+	{
+		"<template>": "        this.marker={}"
+	},
+	{
+		"<template>": "      }else{"
+	},
+	{
+		"<template>": "        "
+	},
+	{
+		"<template>": "        let array = transfer(node);"
+	},
+	{
+		"<template>": "        this.$request.post('/api/getMarker.php'"
+	},
+	{
+		"<template>": "          array:array"
+	},
+	{
+		"<template>": "        }).then(response)"
+	},
+	{
+		"<template>": "      }"
+	},
+	{
+		"<template>": "    })"
+	},
+	{
+		"<template>": "    this.isLoading='true'"
+	},
+	{
+		"<template>": "    if(this.$route.params.species){"
+	},
+	{
+		"<template>": "      this.species=this.$route.params.species;"
+	},
+	{
+		"<template>": "    }"
+	},
+	{
+		"<template>": "    "
+	},
+	{
+		"<template>": "    this.getTreeData('Oryza sativa');"
+	},
+	{
+		"<template>": "  }"
+	},
+	{
+		"<template>": "  "
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": "</script>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "<style>"
+	},
+	{
+		"<template>": ".celltype-header{"
+	},
+	{
+		"<template>": "  margin-top: 20px;"
+	},
+	{
+		"<template>": "  display: flex;"
+	},
+	{
+		"<template>": "  flex-direction: row;"
+	},
+	{
+		"<template>": "  "
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": ".celltype-main{"
+	},
+	{
+		"<template>": "  border: 2px solid hsla(0"
+	},
+	{
+		"<template>": "  border-radius: 5px;"
+	},
+	{
+		"<template>": "  margin-left: 30px;"
+	},
+	{
+		"<template>": "  display: flex !important;"
+	},
+	{
+		"<template>": "  flex-direction: row !important;"
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": ".celltype-aside{"
+	},
+	{
+		"<template>": "  overflow-y:scroll;"
+	},
+	{
+		"<template>": "  overflow-x:scroll !important;"
+	},
+	{
+		"<template>": "  height: 500px;"
+	},
+	{
+		"<template>": "  width:350px !important;"
+	},
+	{
+		"<template>": "  padding: 10px;"
+	},
+	{
+		"<template>": "  border: 2px solid hsla(0"
+	},
+	{
+		"<template>": "  border-radius: 5px;"
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": ".celltype-container{"
+	},
+	{
+		"<template>": "  width: 95%;"
+	},
+	{
+		"<template>": "  margin-left: 2.5%;"
+	},
+	{
+		"<template>": "  background-color: white;"
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": ".under-navbar{"
+	},
+	{
+		"<template>": "  height: 65px;"
+	},
+	{
+		"<template>": "  width: 100%;"
+	},
+	{
+		"<template>": "  background-color: hsla(123"
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": "/**select 样式 */"
+	},
+	{
+		"<template>": ".el-select .el-input__inner:focus{"
+	},
+	{
+		"<template>": "  border-color: #6db94a !important;"
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": ".el-select .el-input.is-focus .el-input__inner{"
+	},
+	{
+		"<template>": "  border-color:#6db94a !important;"
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": ".el-select-dropdown__item.selected{"
+	},
+	{
+		"<template>": "  font-weight: 700 !important;"
+	},
+	{
+		"<template>": "  color:#6db94a !important;"
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": ".halfwidth{"
+	},
+	{
+		"<template>": "    width: 50%;"
+	},
+	{
+		"<template>": "  }"
+	},
+	{
+		"<template>": "</style>"
+	}
+]

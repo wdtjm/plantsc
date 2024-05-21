@@ -1,0 +1,1 @@
+@/components/celltype/celltype-main.vue@/components/celltype/celltypeheader.vue

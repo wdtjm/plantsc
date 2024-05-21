@@ -1,0 +1,536 @@
+[
+	{
+		"<template>": "  <div class=\"table-page\">"
+	},
+	{
+		"<template>": "        "
+	},
+	{
+		"<template>": "        "
+	},
+	{
+		"<template>": "        <div class=\"paging\">"
+	},
+	{
+		"<template>": "        <!--数据显示区域-->"
+	},
+	{
+		"<template>": "        <div class=\"data\">"
+	},
+	{
+		"<template>": "            <!--表格存放数组中的数据，并对数据进行截取，以控制每一页显示的数据量-->"
+	},
+	{
+		"<template>": "            <!--slice(start"
+	},
+	{
+		"<template>": "            <el-table"
+	},
+	{
+		"<template>": "                :data=\"tableData.slice((currentPage-1)*pageSize"
+	},
+	{
+		"<template>": "                style=\"width: 100%\""
+	},
+	{
+		"<template>": "                :header-cell-style=\"{background:'hsla(241"
+	},
+	{
+		"<template>": "                >"
+	},
+	{
+		"<template>": "                "
+	},
+	{
+		"<template>": "                <el-table-column sortable :filters=\"filterData['Celltypes']\" :filter-method=\"filter\"> "
+	},
+	{
+		"<template>": "                    <template slot=\"header\" >"
+	},
+	{
+		"<template>": "                        <div class=\"table-title\">"
+	},
+	{
+		"<template>": "                            <div>Celltypes</div>"
+	},
+	{
+		"<template>": "                        </div>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                <template slot-scope=\"scope\">"
+	},
+	{
+		"<template>": "                    <span style=\"margin-left: 10px\">{{ scope.row['Celltypes'] }}</span>"
+	},
+	{
+		"<template>": "                </template>"
+	},
+	{
+		"<template>": "                </el-table-column>"
+	},
+	{
+		"<template>": "                "
+	},
+	{
+		"<template>": "                <el-table-column  prop=\"Species\" sortable>"
+	},
+	{
+		"<template>": "                    <template slot=\"header\" >"
+	},
+	{
+		"<template>": "                        <div class=\"table-title\">"
+	},
+	{
+		"<template>": "                            <div>Species</div>"
+	},
+	{
+		"<template>": "                           "
+	},
+	{
+		"<template>": "                        </div>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                    <template slot-scope=\"scope\">"
+	},
+	{
+		"<template>": "                        <div slot=\"reference\" class=\"name-wrapper\">"
+	},
+	{
+		"<template>": "                            <el-tag size=\"medium\">{{ scope.row['Species'] }}</el-tag>"
+	},
+	{
+		"<template>": "                        </div>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                    </el-table-column>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "                <el-table-column label=\"High confidence genes\" prop=\"High confidence genes\" sortable>"
+	},
+	{
+		"<template>": "                    <template slot=\"header\" >"
+	},
+	{
+		"<template>": "                        <div class=\"table-title\">"
+	},
+	{
+		"<template>": "                            <div>High confidence genes</div>"
+	},
+	{
+		"<template>": "                        </div>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                    <template slot-scope=\"scope\">"
+	},
+	{
+		"<template>": "                    <span style=\"margin-left: 10px\">{{ scope.row['High confidence genes'] }}</span>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                </el-table-column>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "                <el-table-column label=\"Unique genes\" sortable prop=\"Unique genes\">"
+	},
+	{
+		"<template>": "                    <template slot=\"header\" >"
+	},
+	{
+		"<template>": "                        <div class=\"table-title\">"
+	},
+	{
+		"<template>": "                            <div>Unique genes</div>"
+	},
+	{
+		"<template>": "                            "
+	},
+	{
+		"<template>": "                        </div>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                    <template slot-scope=\"scope\">"
+	},
+	{
+		"<template>": "                    <span style=\"margin-left: 10px\">{{ scope.row['Unique genes'] }}</span>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                </el-table-column>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "                <el-table-column label=\"Marker genes\" prop=\"Marker genes\" sortable>"
+	},
+	{
+		"<template>": "                    <template slot=\"header\" >"
+	},
+	{
+		"<template>": "                        <div class=\"table-title\">"
+	},
+	{
+		"<template>": "                            <div>Marker genes</div>"
+	},
+	{
+		"<template>": "                        </div>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                    <template slot-scope=\"scope\">"
+	},
+	{
+		"<template>": "                    <span style=\"margin-left: 10px\">{{ scope.row['Marker genes'] }}</span>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                </el-table-column>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "                <el-table-column label=\"Enzymolysis genes\">"
+	},
+	{
+		"<template>": "                    <template slot=\"header\" >"
+	},
+	{
+		"<template>": "                        <div class=\"table-title\">"
+	},
+	{
+		"<template>": "                            <div>Enzymolysis genes</div>"
+	},
+	{
+		"<template>": "                        </div>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                    <template slot-scope=\"scope\">"
+	},
+	{
+		"<template>": "                    <span style=\"margin-left: 10px\">{{ scope.row['Enzymolysis genes'] }}</span>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                </el-table-column>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "                <el-table-column label=\"Single cell genes\">"
+	},
+	{
+		"<template>": "                    <template slot=\"header\" >"
+	},
+	{
+		"<template>": "                        <div class=\"table-title\">"
+	},
+	{
+		"<template>": "                            <div>Single cell genes</div>"
+	},
+	{
+		"<template>": "                        </div>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                    <template slot-scope=\"scope\">"
+	},
+	{
+		"<template>": "                    <span style=\"margin-left: 10px\">"
+	},
+	{
+		"<template>": "                        {{ scope.row['Single cell genes'] }}"
+	},
+	{
+		"<template>": "                    </span>"
+	},
+	{
+		"<template>": "                    </template>"
+	},
+	{
+		"<template>": "                </el-table-column>"
+	},
+	{
+		"<template>": "            </el-table>"
+	},
+	{
+		"<template>": "        </div>"
+	},
+	{
+		"<template>": "        <!--分页按钮-->"
+	},
+	{
+		"<template>": "        <el-pagination"
+	},
+	{
+		"<template>": "                background"
+	},
+	{
+		"<template>": "                layout=\"prev"
+	},
+	{
+		"<template>": "                :total=\"tableData.length\""
+	},
+	{
+		"<template>": "                @current-change=\"handleCurrentChange\""
+	},
+	{
+		"<template>": "                :current-page=\"currentPage\""
+	},
+	{
+		"<template>": "                :page-size=\"pageSize\""
+	},
+	{
+		"<template>": "                style=\"text-align: center\">"
+	},
+	{
+		"<template>": "        </el-pagination>"
+	},
+	{
+		"<template>": "        </div>"
+	},
+	{
+		"<template>": "    </div>"
+	},
+	{
+		"<template>": "</template>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "<script>"
+	},
+	{
+		"<template>": "export default {"
+	},
+	{
+		"<template>": "  data(){"
+	},
+	{
+		"<template>": "    return{"
+	},
+	{
+		"<template>": "      tableData:null"
+	},
+	{
+		"<template>": "      currentPage: '1'"
+	},
+	{
+		"<template>": "      pageSize: '20'"
+	},
+	{
+		"<template>": "      filterData:{}"
+	},
+	{
+		"<template>": "    }"
+	},
+	{
+		"<template>": "  }"
+	},
+	{
+		"<template>": "  methods:{"
+	},
+	{
+		"<template>": "    filter(value"
+	},
+	{
+		"<template>": "    {"
+	},
+	{
+		"<template>": "        console.log('filter'"
+	},
+	{
+		"<template>": "    }"
+	},
+	{
+		"<template>": "    //点击按钮切换页面"
+	},
+	{
+		"<template>": "    handleCurrentChange(currentPage) {"
+	},
+	{
+		"<template>": "        this.currentPage = currentPage; //每次点击分页按钮，当前页发生变化"
+	},
+	{
+		"<template>": "        // console.log(this.currentPage);"
+	},
+	{
+		"<template>": "      }"
+	},
+	{
+		"<template>": "    getFilterData(name){"
+	},
+	{
+		"<template>": "      return Array.from(new Set(this.tableData.map((obj"
+	},
+	{
+		"<template>": "          return obj[name]}))).map((obj"
+	},
+	{
+		"<template>": "          return Object.assign({}"
+	},
+	{
+		"<template>": "    }"
+	},
+	{
+		"<template>": "  }"
+	},
+	{
+		"<template>": "  mounted(){"
+	},
+	{
+		"<template>": "    this.$eventBus.$on('marker-table'"
+	},
+	{
+		"<template>": "      //console.log('this.tableData'"
+	},
+	{
+		"<template>": "      this.tableData=data;"
+	},
+	{
+		"<template>": "      this.filterData['Celltypes']=this.getFilterData('Celltypes');"
+	},
+	{
+		"<template>": "      this.filterData['Species']=this.getFilterData('Species');"
+	},
+	{
+		"<template>": "      this.filterData['High confidence genes']=this.getFilterData('High confidence genes');"
+	},
+	{
+		"<template>": "      this.filterData['Unique genes']=this.getFilterData('Unique genes');"
+	},
+	{
+		"<template>": "      this.filterData['Marker genes']=this.getFilterData('Marker genes');"
+	},
+	{
+		"<template>": "      this.filterData['Enzymolysis genes']=this.getFilterData('Enzymolysis genes');"
+	},
+	{
+		"<template>": "      this.filterData['Single cell genes']=this.getFilterData('Single cell genes');"
+	},
+	{
+		"<template>": "      console.log('this.filterData:'"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "      "
+	},
+	{
+		"<template>": "    })"
+	},
+	{
+		"<template>": "  }"
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": "</script>"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": "<style>"
+	},
+	{
+		"<template>": ".table-page{"
+	},
+	{
+		"<template>": "    background-color: white;"
+	},
+	{
+		"<template>": "    width: 100%;"
+	},
+	{
+		"<template>": "}"
+	},
+	{
+		"<template>": ""
+	},
+	{
+		"<template>": ".paging {"
+	},
+	{
+		"<template>": "    width: 95%;"
+	},
+	{
+		"<template>": "    margin: 50px auto;"
+	},
+	{
+		"<template>": "  }"
+	},
+	{
+		"<template>": " "
+	},
+	{
+		"<template>": "  .data {"
+	},
+	{
+		"<template>": "    width: 98%;"
+	},
+	{
+		"<template>": "    /* height: 340px; */"
+	},
+	{
+		"<template>": "    /* border: 2px solid #cccccc; */"
+	},
+	{
+		"<template>": "    margin: 10px auto;"
+	},
+	{
+		"<template>": "    text-align: center;"
+	},
+	{
+		"<template>": "  }"
+	},
+	{
+		"<template>": "</style>"
+	}
+]

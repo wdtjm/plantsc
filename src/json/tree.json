@@ -1,0 +1,929 @@
+[
+  {
+    "lable": "Calli",
+    "opened": "true",
+    "id": 1,
+    "children": [
+      { "lable": "initiation stage", "opened": "true" },
+      { "lable": "division stage", "opened": "true" },
+      {
+        "lable": "formation stage",
+        "opened": "true",
+        "children": [
+          { "lable": "Epidermis-like cell", "opened": "true" },
+          {
+            "lable": "Explant vasculature and callus founder cell",
+            "opened": "true"
+          },
+          { "lable": "Lateral root cap like cell", "opened": "true" },
+          { "lable": "Quiescent center-like cell", "opened": "true" },
+          { "lable": "Vascular-initial-like cell", "opened": "true" },
+          {
+            "lable": "Explant vasculature and callus founder cell",
+            "opened": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lable": "Cotyledon",
+    "opened": "true",
+    "children": [
+      {
+        "lable": "guard cell",
+        "opened": "true",
+        "children": [
+          { "lable": "guard mother cell", "opened": "true" },
+          { "lable": "Young guard cell", "opened": "true" },
+          { "lable": "meristemoid", "opened": "true" },
+          { "lable": "Meristemoid mother cell", "opened": "true" },
+          { "lable": "Early-stage meristemoid", "opened": "true" },
+          { "lable": "Late-stage meristemoid", "opened": "true" }
+        ]
+      },
+      { "lable": "mesophyll cell", "opened": "true" },
+      { "lable": "leaf pavement cell", "opened": "true" },
+      { "lable": "Reprogrammed cell", "opened": "true" },
+      { "lable": "Vascular stem cell", "opened": "true" }
+    ]
+  },
+  {
+    "lable": "Flower",
+    "opened": "true",
+    "children": [
+      {
+        "lable": "Floral bud",
+        "opened": "true",
+        "children": [
+          { "lable": "Anther", "opened": "true" },
+          { "lable": "filament", "opened": "true" },
+          { "lable": "ovary replum", "opened": "true" },
+          { "lable": "petal vascular system", "opened": "true" },
+          { "lable": "style", "opened": "true" },
+          { "lable": "valve margins of pistils", "opened": "true" }
+        ]
+      },
+      {
+        "lable": "Floral meristem",
+        "opened": "true",
+        "children": [
+          { "lable": "Cortex", "opened": "true" },
+          { "lable": "Dividing cell", "opened": "true" },
+          { "lable": "Epidermis", "opened": "true" },
+          { "lable": "cambium cell", "opened": "true" },
+          { "lable": "flower meristem", "opened": "true" },
+          { "lable": "mesophyll cell", "opened": "true" },
+          { "lable": "phloem", "opened": "true" },
+          { "lable": "Xylem parenchyma ", "opened": "true" }
+        ]
+      },
+      {
+        "lable": "flower",
+        "opened": "true",
+        "children": [
+          {
+            "lable": "anther",
+            "opened": "true",
+            "children": [
+              { "lable": "Early anther", "opened": "true" },
+              { "lable": "Intermediate anther", "opened": "true" },
+              { "lable": "Late anther", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "carpel",
+            "opened": "true",
+            "children": [{ "lable": "early carpel", "opened": "true" }]
+          },
+          {
+            "lable": "floral epidermis",
+            "opened": "true",
+            "children": [{ "lable": "Trichome", "opened": "true" }]
+          },
+          { "lable": "flower vascular system", "opened": "true" },
+          {
+            "lable": "inflorescence",
+            "opened": "true",
+            "children": [
+              { "lable": "Inflorescence stem cambium", "opened": "true" }
+            ]
+          },
+          { "lable": "mesophyll cell", "opened": "true" },
+          {
+            "lable": "meristem",
+            "opened": "true",
+            "children": [
+              { "lable": "flower meristem", "opened": "true" },
+              { "lable": "inflorescence meristem", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "pistil",
+            "opened": "true",
+            "children": [
+              { "lable": "stigma", "opened": "true" },
+              {
+                "lable": "plant ovary",
+                "opened": "true",
+                "children": [
+                  {
+                    "lable": "plant ovary ovule",
+                    "opened": "true",
+                    "children": [
+                      {
+                        "lable": "Female gametophyte",
+                        "opened": "true",
+                        "children": [
+                          { "lable": "antipodal cell", "opened": "true" },
+                          { "lable": "embryo apical cell", "opened": "true" },
+                          { "lable": "embryo basal cell", "opened": "true" },
+                          {
+                            "lable": "embryo sac central cell",
+                            "opened": "true"
+                          },
+                          { "lable": "embryo sac egg cell", "opened": "true" },
+                          { "lable": "synergid", "opened": "true" }
+                        ]
+                      },
+                      {
+                        "lable": "Female gametic cell",
+                        "opened": "true",
+                        "children": [
+                          { "lable": "Central cell", "opened": "true" },
+                          { "lable": "plant egg cell", "opened": "true" },
+                          { "lable": "Synergid cell", "opened": "true" }
+                        ]
+                      },
+                      {
+                        "lable": "integument",
+                        "opened": "true",
+                        "children": [
+                          { "lable": "outer integument", "opened": "true" },
+                          { "lable": "inner integument", "opened": "true" }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "lable": "Central cell",
+                    "opened": "true",
+                    "children": [
+                      {
+                        "lable": "Central cell from the tetraploid",
+                        "opened": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "lable": "Egg cell",
+                    "opened": "true",
+                    "children": [
+                      { "lable": "Egg cell in the diploid", "opened": "true" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lable": "stamen",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "pollen",
+                "opened": "true",
+                "children": [
+                  {
+                    "lable": "Pollen grains",
+                    "opened": "true",
+                    "children": [
+                      {
+                        "lable": "Developing male gametophytes",
+                        "opened": "true",
+                        "children": [
+                          { "lable": "Generative nuclei", "opened": "true" },
+                          { "lable": "Microspore nuclei", "opened": "true" },
+                          { "lable": "Sperm nuclei", "opened": "true" },
+                          { "lable": "Trans", "opened": "true" },
+                          { "lable": "Vegetative nuclei", "opened": "true" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "lable": "perianth",
+            "opened": "true",
+            "children": [{ "lable": "early perianth", "opened": "true" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lable": "Root",
+    "opened": "true",
+    "children": [
+      {
+        "lable": "lateral root",
+        "opened": "true",
+        "children": [
+          {
+            "lable": "Epidermis",
+            "opened": "true",
+            "children": [
+              { "lable": "non-hair root epidermal cell", "opened": "true" },
+              { "lable": "trichoblast", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "lateral root cap",
+            "opened": "true",
+            "children": [
+              { "lable": "Proximal lateral root cap", "opened": "true" },
+              { "lable": "columella", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "lateral root primordium",
+            "opened": "true",
+            "children": [
+              { "lable": "Young lateral root primordium", "opened": "true" },
+              {
+                "lable": "pericyclic lateral root primordium",
+                "opened": "true"
+              }
+            ]
+          },
+          {
+            "lable": "pericycle cell",
+            "opened": "true",
+            "children": [
+              { "lable": "phloem pole pericycle cell", "opened": "true" },
+              { "lable": "xylem pole pericycle cell", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "phloem",
+            "opened": "true",
+            "children": [
+              { "lable": "companion cell", "opened": "true" },
+              { "lable": "protophloem", "opened": "true" },
+              { "lable": "Protophloem-like cell", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "quiescent center",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "Quiescent center transitioning cell",
+                "opened": "true"
+              }
+            ]
+          },
+          { "lable": "root cortex", "opened": "true" },
+          {
+            "lable": "root endodermis",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "Endodermis and lateral root primordia responding endodermis",
+                "opened": "true"
+              },
+              {
+                "lable": "Lateral root primordia responding endodermis",
+                "opened": "true"
+              }
+            ]
+          },
+          { "lable": "root lateral meristem", "opened": "true" },
+          { "lable": "root procambium", "opened": "true" },
+          {
+            "lable": "root stele",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "xylem",
+                "opened": "true",
+                "children": [{ "lable": "protoxylem", "opened": "true" }]
+              }
+            ]
+          },
+          { "lable": "Vascular-like cell", "opened": "true" }
+        ]
+      },
+      {
+        "lable": "Root",
+        "opened": "true",
+        "children": [
+          { "lable": "cambium", "opened": "true" },
+          { "lable": "stem cell niche", "opened": "true" },
+          { "lable": "Dividing cell", "opened": "true" },
+          {
+            "lable": "Elongation zone",
+            "opened": "true",
+            "children": [
+              { "lable": "Elongation atrichoblast", "opened": "true" },
+              { "lable": "Elongation trichoblast", "opened": "true" },
+              { "lable": "Elongation cortex", "opened": "true" },
+              { "lable": "Elongation endodermis", "opened": "true" },
+              {
+                "lable": "Elongation stele",
+                "opened": "true",
+                "children": [
+                  {
+                    "lable": "pericycle cell",
+                    "opened": "true",
+                    "children": [
+                      {
+                        "lable": "phloem pole pericycle cell",
+                        "opened": "true"
+                      },
+                      {
+                        "lable": "xylem pole pericycle cell",
+                        "opened": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "lable": "root vascular system",
+                    "opened": "true",
+                    "children": [
+                      {
+                        "lable": "Vasculature and columella",
+                        "opened": "true"
+                      },
+                      {
+                        "lable": "Elongation xylem",
+                        "opened": "true",
+                        "children": [
+                          {
+                            "lable": "protoxylem",
+                            "opened": "true",
+                            "children": [
+                              {
+                                "lable": "Protoxylem-like mixed",
+                                "opened": "true"
+                              },
+                              {
+                                "lable": "Protoxylem-like primary",
+                                "opened": "true"
+                              }
+                            ]
+                          },
+                          { "lable": "metaxylem", "opened": "true" }
+                        ]
+                      },
+                      {
+                        "lable": "Elongation phloem",
+                        "opened": "true",
+                        "children": [
+                          { "lable": "companion cell", "opened": "true" },
+                          {
+                            "lable": "Metaphloem & Companion cell",
+                            "opened": "true"
+                          },
+                          { "lable": "protophloem", "opened": "true" },
+                          {
+                            "lable": "sieve element",
+                            "opened": "true",
+                            "children": [
+                              {
+                                "lable": "Metaphloem sieve element",
+                                "opened": "true"
+                              },
+                              {
+                                "lable": "Protophloem sieve element",
+                                "opened": "true"
+                              },
+                              { "lable": "Early SE", "opened": "true" },
+                              { "lable": "Late SE", "opened": "true" }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              { "lable": "Elongation procambium", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "Maturation zone",
+            "opened": "true",
+            "children": [
+              { "lable": "Maturation atrichoblast", "opened": "true" },
+              { "lable": "Maturation trichoblast", "opened": "true" },
+              {
+                "lable": "Maturation cortex",
+                "opened": "true",
+                "children": [
+                  { "lable": "Maturation endodermis", "opened": "true" }
+                ]
+              },
+              {
+                "lable": "Maturation phloem",
+                "opened": "true",
+                "children": [
+                  { "lable": "Maturation Metaphloem", "opened": "true" },
+                  { "lable": "Maturation protophloem", "opened": "true" }
+                ]
+              },
+              {
+                "lable": "Maturation xylem",
+                "opened": "true",
+                "children": [
+                  { "lable": "Maturation protoxylem", "opened": "true" }
+                ]
+              },
+              { "lable": "Maturation procambium", "opened": "true" },
+              {
+                "lable": "Maturation phloem pole pericycle",
+                "opened": "true"
+              },
+              { "lable": "Maturation xylem pole pericycle", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "Meristem zone",
+            "opened": "true",
+            "children": [
+              { "lable": "Meristem atrichoblast", "opened": "true" },
+              { "lable": "Meristem trichoblast", "opened": "true" },
+              {
+                "lable": "Meristem cortex",
+                "opened": "true",
+                "children": [
+                  { "lable": "Meristem endocortex", "opened": "true" }
+                ]
+              },
+              { "lable": "Meristem endodermis", "opened": "true" },
+              {
+                "lable": "Meristem phloem",
+                "opened": "true",
+                "children": [
+                  { "lable": "Meristem protophloem", "opened": "true" },
+                  { "lable": "Meristem Metaphloem", "opened": "true" }
+                ]
+              },
+              {
+                "lable": "Meristem xylem",
+                "opened": "true",
+                "children": [
+                  { "lable": "Meristem protoxylem", "opened": "true" },
+                  { "lable": "Meristem metaxylem", "opened": "true" }
+                ]
+              },
+              { "lable": "Meristem procambium", "opened": "true" },
+              { "lable": "Meristem quiescent center", "opened": "true" },
+              {
+                "lable": "Initial",
+                "opened": "true",
+                "children": [{ "lable": "Vascular Initial", "opened": "true" }]
+              },
+              { "lable": "Meristem phloem pole pericycle", "opened": "true" },
+              { "lable": "Meristem xylem pole pericycle", "opened": "true" },
+              {
+                "lable": "Root meristem",
+                "opened": "true",
+                "children": [
+                  { "lable": "Proximal meristem", "opened": "true" },
+                  {
+                    "lable": "root apical meristem",
+                    "opened": "true",
+                    "children": [
+                      { "lable": "root procambium", "opened": "true" },
+                      { "lable": "Transit amplifying cell", "opened": "true" }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          { "lable": "photosynthetic cell", "opened": "true" },
+          {
+            "lable": "root cap",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "columella root cap cell",
+                "opened": "true",
+                "children": [
+                  { "lable": "Proximal columella", "opened": "true" },
+                  { "lable": "Distal columella", "opened": "true" }
+                ]
+              },
+              { "lable": "Distal lateral root cap", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "root epidermis",
+            "opened": "true",
+            "children": [
+              { "lable": "non-hair root epidermal cell", "opened": "true" },
+              {
+                "lable": "root hair",
+                "opened": "true",
+                "children": [
+                  { "lable": "trichoblast", "opened": "true" },
+                  { "lable": "Early root hair", "opened": "true" },
+                  { "lable": "Mature root hair", "opened": "true" }
+                ]
+              }
+            ]
+          },
+          {
+            "lable": "root stele",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "pericycle cell",
+                "opened": "true",
+                "children": [
+                  { "lable": "phloem pole pericycle cell", "opened": "true" }
+                ]
+              },
+              {
+                "lable": "root vascular system",
+                "opened": "true",
+                "children": [
+                  { "lable": "Vasculature and columella", "opened": "true" },
+                  {
+                    "lable": "xylem",
+                    "opened": "true",
+                    "children": [
+                      {
+                        "lable": "protoxylem",
+                        "opened": "true",
+                        "children": [
+                          {
+                            "lable": "Protoxylem-like mixed",
+                            "opened": "true"
+                          },
+                          {
+                            "lable": "Protoxylem-like primary",
+                            "opened": "true"
+                          }
+                        ]
+                      },
+                      { "lable": "metaxylem", "opened": "true" }
+                    ]
+                  },
+                  {
+                    "lable": "phloem",
+                    "opened": "true",
+                    "children": [
+                      { "lable": "companion cell", "opened": "true" },
+                      {
+                        "lable": "Metaphloem & Companion cell",
+                        "opened": "true"
+                      },
+                      { "lable": "protophloem", "opened": "true" },
+                      {
+                        "lable": "sieve element",
+                        "opened": "true",
+                        "children": [
+                          {
+                            "lable": "Metaphloem sieve element",
+                            "opened": "true"
+                          },
+                          {
+                            "lable": "Protophloem sieve element",
+                            "opened": "true"
+                          },
+                          { "lable": "Early SE", "opened": "true" },
+                          { "lable": "Late SE", "opened": "true" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lable": "Leaf",
+    "opened": "true",
+    "children": [
+      {
+        "lable": "Aerial tissue",
+        "opened": "true",
+        "children": [
+          { "lable": "guard cell", "opened": "true" },
+          { "lable": "mesophyll cell", "opened": "true" },
+          { "lable": "vascular system", "opened": "true" }
+        ]
+      },
+      {
+        "lable": "leaf epidermis",
+        "opened": "true",
+        "children": [
+          {
+            "lable": "leaf pavement cell",
+            "opened": "true",
+            "children": [
+              { "lable": "leaf abaxial pavement cell", "opened": "true" },
+              { "lable": "leaf adaxial pavement cell", "opened": "true" }
+            ]
+          },
+          { "lable": "leaf trichome", "opened": "true" },
+          {
+            "lable": "leaf guard cell",
+            "opened": "true",
+            "children": [
+              { "lable": "guard mother cell", "opened": "true" },
+              { "lable": "Young guard cell", "opened": "true" }
+            ]
+          },
+          { "lable": "stomatal initial cell", "opened": "true" },
+          { "lable": "hydathode", "opened": "true" },
+          { "lable": "Meristemoid mother cell", "opened": "true" }
+        ]
+      },
+      {
+        "lable": "leaf vascular system",
+        "opened": "true",
+        "children": [
+          {
+            "lable": "phloem",
+            "opened": "true",
+            "children": [
+              { "lable": "companion cell", "opened": "true" },
+              { "lable": "Phloem parenchyma", "opened": "true" },
+              { "lable": "protophloem", "opened": "true" },
+              { "lable": "sieve element", "opened": "true" }
+            ]
+          },
+          { "lable": "xylem", "opened": "true" }
+        ]
+      },
+      { "lable": "Meristem", "opened": "true" },
+      {
+        "lable": "mesophyll cell",
+        "opened": "true",
+        "children": [
+          { "lable": "palisade mesophyll cell", "opened": "true" },
+          { "lable": "spongy mesophyll cell", "opened": "true" }
+        ]
+      },
+      { "lable": "Myrosinase cell", "opened": "true" },
+      { "lable": "initial cell", "opened": "true" },
+      { "lable": "Senescing cell", "opened": "true" }
+    ]
+  },
+  {
+    "lable": "Seed",
+    "opened": "true",
+    "children": [
+      {
+        "lable": "Embryo",
+        "opened": "true",
+        "children": [
+          { "lable": "Columella initial", "opened": "true" },
+          {
+            "lable": "Dividing cell",
+            "opened": "true",
+            "children": [
+              { "lable": "Dividing inner", "opened": "true" },
+              { "lable": "Dividing outer", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "protoderm",
+            "opened": "true",
+            "children": [
+              { "lable": "Lower protoderm", "opened": "true" },
+              { "lable": "Upper protoderm", "opened": "true" }
+            ]
+          },
+          { "lable": "Shoot meristem initial", "opened": "true" },
+          { "lable": "Vascular initial", "opened": "true" }
+        ]
+      },
+      {
+        "lable": "Chalaza",
+        "opened": "true",
+        "children": [
+          { "lable": "Chalaza at the globular stage", "opened": "true" }
+        ]
+      },
+      {
+        "lable": "endosperm",
+        "opened": "true",
+        "children": [
+          {
+            "lable": "Chalazal endosperm",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "Chalazal endosperm at globular and early heart stages",
+                "opened": "true"
+              },
+              {
+                "lable": "Chalazal endosperm at preglobular stage",
+                "opened": "true"
+              },
+              { "lable": "Chalazal endosperm nodule-like", "opened": "true" },
+              { "lable": "Chalazal endosperm nodules", "opened": "true" },
+              { "lable": "chalazal cyst", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "micropylar endosperm",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "Endosperm at globular and maturation green stages",
+                "opened": "true"
+              },
+              {
+                "lable": "Endosperm at globular stage of the embryo",
+                "opened": "true"
+              },
+              {
+                "lable": "Endosperm at linear cotyledon and maturation green stages",
+                "opened": "true"
+              }
+            ]
+          },
+          {
+            "lable": "peripheral endosperm",
+            "opened": "true",
+            "children": [
+              { "lable": "Early S-phase peripheral", "opened": "true" },
+              {
+                "lable": "Energy-generating peripheral endosperm",
+                "opened": "true"
+              },
+              {
+                "lable": "Late S-phase peripheral endosperm",
+                "opened": "true"
+              },
+              { "lable": "M-phase peripheral endosperm", "opened": "true" },
+              {
+                "lable": "Peripheral endosperm at the globular stage of development",
+                "opened": "true"
+              },
+              { "lable": "Potential peripheral", "opened": "true" }
+            ]
+          }
+        ]
+      },
+      { "lable": "Flavonol-synthesizing", "opened": "true" },
+      { "lable": "ovary placenta", "opened": "true" },
+      { "lable": "ovule primordium", "opened": "true" },
+      { "lable": "PA-synthesizing endothelium", "opened": "true" },
+      {
+        "lable": "seed coat",
+        "opened": "true",
+        "children": [
+          { "lable": "Chalazal seed coat", "opened": "true" },
+          {
+            "lable": "developing seed coat",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "Seed coat at globular and maturation green stages",
+                "opened": "true"
+              },
+              {
+                "lable": "Seed coat at linear cotyledon and maturation green stages",
+                "opened": "true"
+              }
+            ]
+          },
+          { "lable": "Interfascicular fibers", "opened": "true" },
+          { "lable": "Mature green seed coat", "opened": "true" },
+          { "lable": "Photosynthetically active seed coat", "opened": "true" },
+          {
+            "lable": "seed coat anatomy",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "Seed coat endothelium",
+                "opened": "true",
+                "children": [
+                  { "lable": "Young endothelium cell", "opened": "true" }
+                ]
+              },
+              { "lable": "seed coat epidermis", "opened": "true" },
+              { "lable": "Testa outer integument layer 1", "opened": "true" }
+            ]
+          },
+          { "lable": "Seed coat of young siliques", "opened": "true" }
+        ]
+      },
+      { "lable": "seed funicle", "opened": "true" },
+      {
+        "lable": "plant embryo",
+        "opened": "true",
+        "children": [
+          { "lable": "embryo root", "opened": "true" },
+          { "lable": "plant embryo cotyledon", "opened": "true" }
+        ]
+      },
+      { "lable": "procambium", "opened": "true" },
+      { "lable": "Vascular strands of siliques", "opened": "true" }
+    ]
+  },
+  {
+    "lable": "Shoot",
+    "opened": "true",
+    "children": [
+      {
+        "lable": "shoot apex",
+        "opened": "true",
+        "children": [
+          { "lable": "Epidermis", "opened": "true" },
+          { "lable": "Sub-epidermis", "opened": "true" },
+          {
+            "lable": "shoot system",
+            "opened": "true",
+            "children": [
+              { "lable": "shoot system vascular system", "opened": "true" }
+            ]
+          },
+          {
+            "lable": "stoma",
+            "opened": "true",
+            "children": [
+              { "lable": "companion cell", "opened": "true" },
+              { "lable": "guard cell", "opened": "true" }
+            ]
+          },
+          { "lable": "mesophyll cell", "opened": "true" },
+          { "lable": "Proliferating cell", "opened": "true" },
+          {
+            "lable": "shoot meristem",
+            "opened": "true",
+            "children": [
+              {
+                "lable": "shoot apical meristem",
+                "opened": "true",
+                "children": [
+                  {
+                    "lable": "shoot meristematic apical cell",
+                    "opened": "true"
+                  },
+                  { "lable": "central zone", "opened": "true" },
+                  { "lable": "vascular leaf founder cell", "opened": "true" }
+                ]
+              },
+              {
+                "lable": "vascular leaf primordium",
+                "opened": "true",
+                "children": [
+                  {
+                    "lable": "Protoderm of leaf primordium",
+                    "opened": "true"
+                  },
+                  { "lable": "Young leaf primordium", "opened": "true" }
+                ]
+              },
+              { "lable": "Carpel margin meristem", "opened": "true" },
+              {
+                "lable": "floral organ primordium",
+                "opened": "true",
+                "children": [
+                  {
+                    "lable": "Protoderm of floral organ primordium",
+                    "opened": "true"
+                  }
+                ]
+              },
+              { "lable": "meristematic cell", "opened": "true" }
+            ]
+          },
+          { "lable": "phloem", "opened": "true" },
+          { "lable": "quiescent center", "opened": "true" },
+          { "lable": "Young flower", "opened": "true" }
+        ]
+      },
+      {
+        "lable": "shoot",
+        "opened": "true",
+        "children": [
+          { "lable": "bundle sheath cell", "opened": "true" },
+          { "lable": "mesophyll cell", "opened": "true" },
+          { "lable": "myrosin cell", "opened": "true" },
+          { "lable": "Parenchyma", "opened": "true" },
+          { "lable": "Proliferating cell", "opened": "true" },
+          { "lable": "root procambium", "opened": "true" },
+          { "lable": "shoot apical meristem", "opened": "true" },
+          { "lable": "shoot epidermal cell", "opened": "true" },
+          { "lable": "Stressed cell", "opened": "true" }
+        ]
+      }
+    ]
+  }
+]

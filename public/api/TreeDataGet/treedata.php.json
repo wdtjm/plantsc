@@ -1,0 +1,98 @@
+[
+	{
+		"<?php": "header(\"Access-Control-Allow-Origin: *\");"
+	},
+	{
+		"<?php": "header(\"Access-Control-Allow-Methods: GET"
+	},
+	{
+		"<?php": "/*     header(\"Access-Control-Allow-Headers: Content-Type\"); */"
+	},
+	{
+		"<?php": "header(\"Access-Control-Allow-Credentials: true\");"
+	},
+	{
+		"<?php": "header(\"Access-Control-Max-Age: 3600\");"
+	},
+	{
+		"<?php": "include '../connect.php';"
+	},
+	{
+		"<?php": "$_GET['name']"
+	},
+	{
+		"<?php": "$jsonData = file_get_contents('../../data/tree.json');"
+	},
+	{
+		"<?php": ""
+	},
+	{
+		"<?php": "// 解码JSON数据"
+	},
+	{
+		"<?php": "$phpArray = json_decode($jsonData"
+	},
+	{
+		"<?php": ""
+	},
+	{
+		"<?php": "function tree_travel(&$tree){"
+	},
+	{
+		"<?php": "    $tree['num']=rand(1"
+	},
+	{
+		"<?php": "    if (array_key_exists(\"children\""
+	},
+	{
+		"<?php": "        for ($i = 0; $i < count($tree['children']); $i++) {"
+	},
+	{
+		"<?php": "            tree_travel($tree['children'][$i]);"
+	},
+	{
+		"<?php": "        }"
+	},
+	{
+		"<?php": "    "
+	},
+	{
+		"<?php": "    }"
+	},
+	{
+		"<?php": "    "
+	},
+	{
+		"<?php": "}"
+	},
+	{
+		"<?php": "for ($i = 0; $i < count($phpArray); $i++) {"
+	},
+	{
+		"<?php": "    tree_travel($phpArray[$i]);"
+	},
+	{
+		"<?php": "}"
+	},
+	{
+		"<?php": ""
+	},
+	{
+		"<?php": ""
+	},
+	{
+		"<?php": "// 打印解码后的数据"
+	},
+	{
+		"<?php": "var_dump($phpArray);"
+	},
+	{
+		"<?php": ""
+	},
+	{
+		"<?php": "?>"
+	},
+	{
+		"<?php": ""
+	}
+]

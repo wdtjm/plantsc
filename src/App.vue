@@ -1,40 +1,28 @@
 <template>
   <div id="app">
-    <home></home>
+    <tbar></tbar>
+    <router-view/>
+    <bottom></bottom>
   </div>
 </template>
 
 <script>
 
 
-import home from './views/t-home.vue';
+import home from './pages/home.vue';
+import tbar from './components/pub/tbar.vue'
+import bottom from './components/pub/bottom.vue'
+
 
 export default{
-  components:{home},
+  components:{home,tbar,bottom},
   data() {
     return {
       requestData:"hellolll"
     }
   },
   mounted(){
-    const axios = require('axios');
-    const that = this;
-    // 向给定ID的用户发起请求
-    axios.get('http://localhost:8080/testParam?age=18')
-      .then(function (response) {
-        // 处理成功情况
-        console.log(response);
-        
-        that.requestData = response.data;
-      })
-      .catch(function (error) {
-        // 处理错误情况
-        console.log(error);
-      })
-      .finally(function () {
-        // 总是会执行
-      });
-
+    
   },
   
 }
