@@ -1,6 +1,8 @@
 <template>
   <div class = 'container'>
+    <!-- 背景图及图上的元素 -->
     <bcTop></bcTop>
+
     <div class="head">
       <!-- <tbar></tbar> -->
     </div>
@@ -10,7 +12,7 @@
           <div class="cardbar">
           Browse gene expression patterns over 39 plants
           </div>
-          
+          <!-- cards是植物卡片，cardscol是为竖屏优化的植物卡片布局 -->
           <cards v-if="!this.isCol"></cards>
           <cardscol v-else></cardscol>
         </div>
@@ -29,12 +31,12 @@
   import cardscol from '../components/home/cards-col.vue'
 
   import {test,message} from '@/js/test';
- /*  import {sourcetree} from '@/js/sourcetree';
+  import {sourcetree} from '@/js/sourcetree';
   import {treeToJson} from '@/js/treeToJson';
   import {listToTree} from '@/js/toTree';
-  import { cellTree } from '@/js/cellTree'; */
+  import { cellTree } from '@/js/cellTree';
 
-  export default {
+  export default { 
 
     components:{tbar,PlantCard,bcTop,foot,copyright,cards,cardscol},
     data() {
@@ -44,6 +46,7 @@
         isCol:false
       };
     },
+
     methods: {
       handleSelect(key, keyPath) {
         console.log(key, keyPath);
@@ -75,8 +78,9 @@
      
      
       //转为json
-      /* console.log(listToTree(sourcetree)); */
-      //console.log('tree:',treeToJson(listToTree(sourcetree)));
+      // console.log('json to tree:')
+      //console.log(listToTree(sourcetree));
+      // console.log('tree:',treeToJson(listToTree(sourcetree)));
       //console.log(JSON.stringify(cellTree));
     }
     
@@ -89,7 +93,7 @@
     justify-content: center;
     flex-direction: column;
     width: 95%;
-    padding:auto;
+    padding: 0;
     margin:auto;
     scroll-snap-type: y mandatory;
     

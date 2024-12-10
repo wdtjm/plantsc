@@ -36,13 +36,25 @@
 		"<template>": "                :header-cell-style=\"{background:'hsla(241"
 	},
 	{
+		"<template>": "                @filter-change=\"filterChange\" "
+	},
+	{
 		"<template>": "                >"
 	},
 	{
 		"<template>": "                "
 	},
 	{
-		"<template>": "                <el-table-column sortable :filters=\"filterData['Celltypes']\" :filter-method=\"filter\"> "
+		"<template>": "                <el-table-column sortable "
+	},
+	{
+		"<template>": "                :filters=\"filterData['Celltypes']\" "
+	},
+	{
+		"<template>": "                column-key=\"Celltypes\""
+	},
+	{
+		"<template>": "                > "
 	},
 	{
 		"<template>": "                    <template slot=\"header\" >"
@@ -75,7 +87,13 @@
 		"<template>": "                "
 	},
 	{
-		"<template>": "                <el-table-column  prop=\"Species\" sortable>"
+		"<template>": "                <el-table-column  prop=\"Species\" sortable"
+	},
+	{
+		"<template>": "                :filters=\"filterData['Species']\" "
+	},
+	{
+		"<template>": "                column-key=\"Species\">"
 	},
 	{
 		"<template>": "                    <template slot=\"header\" >"
@@ -117,7 +135,16 @@
 		"<template>": ""
 	},
 	{
-		"<template>": "                <el-table-column label=\"High confidence genes\" prop=\"High confidence genes\" sortable>"
+		"<template>": "                <el-table-column label=\"High confidence genes\" prop=\"High confidence genes\" "
+	},
+	{
+		"<template>": "                :filters=\"filterData['High confidence genes']\" "
+	},
+	{
+		"<template>": "                column-key=\"High confidence genes\""
+	},
+	{
+		"<template>": "                sortable>"
 	},
 	{
 		"<template>": "                    <template slot=\"header\" >"
@@ -150,7 +177,13 @@
 		"<template>": ""
 	},
 	{
-		"<template>": "                <el-table-column label=\"Unique genes\" sortable prop=\"Unique genes\">"
+		"<template>": "                <el-table-column label=\"Unique genes\" sortable prop=\"Unique genes\""
+	},
+	{
+		"<template>": "                :filters=\"filterData['Unique genes']\" "
+	},
+	{
+		"<template>": "                column-key=\"Unique genes\">"
 	},
 	{
 		"<template>": "                    <template slot=\"header\" >"
@@ -186,7 +219,13 @@
 		"<template>": ""
 	},
 	{
-		"<template>": "                <el-table-column label=\"Marker genes\" prop=\"Marker genes\" sortable>"
+		"<template>": "                <el-table-column label=\"Marker genes\" prop=\"Marker genes\" sortable"
+	},
+	{
+		"<template>": "                :filters=\"filterData['Marker genes']\" "
+	},
+	{
+		"<template>": "                column-key=\"Marker genes\">"
 	},
 	{
 		"<template>": "                    <template slot=\"header\" >"
@@ -219,7 +258,13 @@
 		"<template>": ""
 	},
 	{
-		"<template>": "                <el-table-column label=\"Enzymolysis genes\">"
+		"<template>": "                <el-table-column label=\"Enzymolysis genes\""
+	},
+	{
+		"<template>": "                :filters=\"filterData['Enzymolysis genes']\" "
+	},
+	{
+		"<template>": "                column-key=\"Enzymolysis genes\">"
 	},
 	{
 		"<template>": "                    <template slot=\"header\" >"
@@ -252,7 +297,13 @@
 		"<template>": ""
 	},
 	{
-		"<template>": "                <el-table-column label=\"Single cell genes\">"
+		"<template>": "                <el-table-column label=\"Single cell genes\""
+	},
+	{
+		"<template>": "                :filters=\"filterData['Single cell genes']\" "
+	},
+	{
+		"<template>": "                column-key=\"Single cell genes\">"
 	},
 	{
 		"<template>": "                    <template slot=\"header\" >"
@@ -351,6 +402,9 @@
 		"<template>": "      tableData:null"
 	},
 	{
+		"<template>": "      originData:null"
+	},
+	{
 		"<template>": "      currentPage: '1'"
 	},
 	{
@@ -369,13 +423,73 @@
 		"<template>": "  methods:{"
 	},
 	{
+		"<template>": "    filterChange(filters){"
+	},
+	{
+		"<template>": "        console.log('filters'"
+	},
+	{
+		"<template>": "        this.tableData=this.originData"
+	},
+	{
+		"<template>": "        for(var key in filters)"
+	},
+	{
+		"<template>": "        {"
+	},
+	{
+		"<template>": "            if(filters[key].length == 0)"
+	},
+	{
+		"<template>": "            {"
+	},
+	{
+		"<template>": "                continue"
+	},
+	{
+		"<template>": "            }"
+	},
+	{
+		"<template>": "            this.tableData=this.tableData.filter((value)=>{"
+	},
+	{
+		"<template>": "                return filters[key].indexOf(value[key])!=-1;"
+	},
+	{
+		"<template>": "            })"
+	},
+	{
+		"<template>": "        }"
+	},
+	{
+		"<template>": "    }"
+	},
+	{
 		"<template>": "    filter(value"
 	},
 	{
 		"<template>": "    {"
 	},
 	{
-		"<template>": "        console.log('filter'"
+		"<template>": "        if(value===row[column['columnKey']])"
+	},
+	{
+		"<template>": "        {"
+	},
+	{
+		"<template>": "            return true;"
+	},
+	{
+		"<template>": "        }"
+	},
+	{
+		"<template>": "        else{"
+	},
+	{
+		"<template>": "            return false"
+	},
+	{
+		"<template>": "        }"
 	},
 	{
 		"<template>": "    }"
@@ -426,6 +540,9 @@
 		"<template>": "      this.tableData=data;"
 	},
 	{
+		"<template>": "      this.originData=data;"
+	},
+	{
 		"<template>": "      this.filterData['Celltypes']=this.getFilterData('Celltypes');"
 	},
 	{
@@ -450,7 +567,7 @@
 		"<template>": "      console.log('this.filterData:'"
 	},
 	{
-		"<template>": ""
+		"<template>": "      this.$eventBus.$on('children-celltypes'"
 	},
 	{
 		"<template>": ""

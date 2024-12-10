@@ -1,27 +1,44 @@
 <?php
 
-
 include './connect.php';
+$postData = file_get_contents('php://input');
+
+// 解析 JSON 格式的数据
+$requestData = json_decode($postData, true);
+
+$array = $requestData['array']; 
+$species=$requestData['species'];
+
+$result_array = [];
+
 function getmarker($species,$tissue,$celltype,$pdo){
     try {
-        $celltype_all=$celltype . '%';
-        $sql = "SELECT * FROM Sheet1 WHERE Species = '$species' AND Celltypes LIKE '$celltype_all' AND Tissues = '$tissue'";
+        //$celltype_all=$celltype . '%';
+        $sql = "SELECT * FROM Sheet1 WHERE Species = '$species' AND Celltypes LIKE '$celltype' AND Tissues = '$tissue'";
         $stmt = $pdo->prepare($sql);
 
         $stmt->execute();
     
         
         $row = $stmt->fetchALL(PDO::FETCH_ASSOC);
-           return $row; 
+        return $row; 
        
     } catch(PDOException $e) {
         return null;
     }
 }
-$result = [];
-$rows=getmarker('Oryza sativa','Calli','Dividing cell',$pdo);
-if($rows!=[]){
-    $result[]=$rows;
-}
-echo json_encode($result);
+
+for ($i = 0; $i < count($array); $i++) {
+        $rows = getmarker($species,$array[$i]['tissue'],$array[$i]['lable'],$pdo);
+        echo $i;
+        echo  json_encode($rows);
+        if($rows!=[])
+        {
+            $result_array+=$rows;
+        }   
+        echo json_encode($result_array);
+    }
+echo count($array);
+echo json_encode($array);
+/* echo json_encode($result_array); */
 ?>

@@ -1,4 +1,5 @@
 export function listToTree(list) {
+    // 将列表转换为树结构的函数
     let tree = {
       name: 'root',
       level: 0,
@@ -7,19 +8,19 @@ export function listToTree(list) {
     let currParent = tree
     let tissue = null
     list.forEach((item) => {
-      ;[
-        '一级',
-        '二级',
-        '三级',
-        '四级',
-        '五级',
-        '六级',
-        '七级',
-        '八级'
+      [
+        'A',
+        'B',
+        'C',
+        'D',
+        'E',
+        'F',
+        'G',
+        'H'
       ].forEach((namekey, index) => {
         const name = item[namekey]
         const level = index + 1
-  
+   
         if (name) {
           if(level == 1){
             tissue = name;
@@ -28,24 +29,23 @@ export function listToTree(list) {
           node.name = name
           node.level = level
           node.tissue = tissue
-          
-  
+           
+   
           while (currParent.level >= level) {
             currParent = currParent.parent
           }
-  
+   
           let children = currParent.children
           if (!children) {
             children = currParent.children = []
           }
-  
+   
           node.parent = currParent
           children.push(node)
           currParent = node
         }
       })
     })
-  
+   
     return tree
   }
-

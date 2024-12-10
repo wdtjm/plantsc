@@ -103,7 +103,12 @@ export default {
         this.getScatterData(this.$treedata['data'][0]['lable']);
         
         
-  }}
+  },
+  beforeDestroy(){
+    this.scatterEchart.dispose();
+
+  }
+  }
 </script>
 
 <style>

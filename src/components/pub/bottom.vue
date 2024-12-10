@@ -16,6 +16,7 @@ export default {
 
 <style scoped>
 .bottom{
+  
     bottom: 0;
     display: flex;
     flex-direction: column;

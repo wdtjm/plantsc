@@ -16,13 +16,24 @@
             <div class="circle" style="border-color: rgb(178, 223, 138);">{{ this.intro.total }}</div>
           </div>
         </div>
-        <div class="celltype-id-title">Celltype ID</div>
-        <div class="celltype-id">{{ this.intro.Celltype_Id }}</div>
-        <div class="celltype-description-title">Description</div>
-        <div class="celltype-description">{{ this.intro.Description }}</div>
-      </div>
+        <div v-if="showSelf" class="celltype-intro-left">
+          <div class="celltype-id-title">Celltype ID</div>
+          <div class="celltype-id">{{ this.intro.Celltype_Id }}</div>
+          <div class="celltype-description-title">Description</div>
+          <div class="celltype-description">{{ this.intro.Description }}</div>
+        </div>
+        <div v-if="showChildren" class="celltype-intro-left">
+          <span class="celltype subcelltype-title">subcelltype</span>
+          <div class="celltype-intro-left">
+              <div class="children-marker" v-for="celltype in children.slice(0,3)" :key="celltype">
+              {{ celltype['text'] }}
+              </div>
+              <div v-if="children.length>3" class="chldren-marker">...</div>
+          </div>
+        </div>
+      </div> 
 
-      <div style="width: 100%;">
+      <div class="celltype-marker-width">
         <celltypetable ></celltypetable>
       </div>
   </div>
@@ -36,25 +47,64 @@ export default {
   components:{celltypetable},
   data(){
     return{
-      intro:{}
+      intro:{},
+      showChildren:false,
+      showSelf:false,
+      children:null
     }
   },
   mounted(){
     eventBus.$on('intro',(node,marker)=>{
-      console.log('node in intro',node)
+      this.showChildren = false
+      this.showSelf = false
+      console.log('celltype-marker:intro:',node)
+      console.log('celltype-marker:marker:',marker)
       this.intro = node
-      this.intro['Celltype_Id']=marker['Celltype_Id']
-      this.intro['Description']=marker['Description']
+      let that = this
+      /* this.intro['Celltype_Id']=marker['Celltype_Id']
+      this.intro['Description']=marker['Description'] */
+      this.$request.post('api/getIdDesp.php',{
+        "celltype":this.intro.lable
+      })
+      .then((resp)=>{
+        console.log('getIdDesp',resp.data)
+        if(resp.data.length != 0){
+          that.intro['Celltype_Id']=resp.data[0]['id']
+          that.intro['Description']=resp.data[0]['description']
+        }else{
+          that.intro['Celltype_Id']='no data'
+          that.intro['Description']='no data'
+        }
+        
+        that.showSelf = true
+      
+      })
       console.log('this.intro',this.intro)
+      if('children' in this.intro)
+      {
+        this.showChildren=true;
+        console.log('show children')
+      }else{
+        console.log('not show children')
+      }
+      
+    });
+    this.$eventBus.$on('children-celltypes',(celltypes)=>{
+      console.log('celltype-marker:children-types:',celltypes);
+      this.children = celltypes;
     })
   },
   beforeDestroy(){
     eventBus.$off('intro');
+    eventBus.$off('children-celltypes');
   }
 }
 </script>
 
 <style scoped>
+.celltype-marker-width{
+  width: calc(100% - 300px);
+}
 .celltype-marker-layout{
   width: 100%;
   display: flex;
@@ -110,7 +160,7 @@ export default {
 .celltype-id{
   margin-top: 10px;
   font-size: medium;
-  font-weight: 600;
+  
 }
 .celltype-description-title{
   margin-top: 10px;
@@ -119,5 +169,18 @@ export default {
 }
 .celltype-description{
   margin-top: 10px;
+  text-align: left;
+}
+.celltype-intro-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.subcelltype-title{
+  margin-top: 10px;
+}
+.children-marker{
+  margin-top: 10px;
+  text-align: left;
 }
 </style>

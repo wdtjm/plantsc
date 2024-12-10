@@ -5,7 +5,7 @@
             <div class="caption">
                 <div class="caption-description">
                     <div class="plantTitle" :class="{'latin':plant.isLatin}">{{ plant.name }}</div>
-                    <div class="plantMaker">{{ 'XX' + ' Maker' }}</div>
+                    <div class="plantMaker" @click="gotoMarker(plant.name)">{{ 'XX' + ' Maker' }}</div>
                 </div>
             </div>
             <div v-if="plant.children!=null" class="children-info caption-description">
@@ -34,6 +34,9 @@ export default {
     methods:{
         gotodetail(name){
         this.$router.push({name:'celltype',params: {species:name}}).catch(error=>{});
+    },
+    gotoMarker(name){
+      this.$router.push("/marker?species="+name);
     }
     }
     

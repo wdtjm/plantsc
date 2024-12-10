@@ -16,12 +16,13 @@
         style="width: 700px;"
         :allow-drop="allowDrop"
         @node-drag-end="handleDragEnd"
-        @node-click="handleNodeClick"
         class="tree"
         ref="tree"
       >
         <template v-slot:default="{ data }">
-          <div :class="{'flex-tree-children':data.children,'flex-tree-no-children':!data.children,'cursor-ban':data.total==0}">
+          <div :class="{'flex-tree-children':data.children,'flex-tree-no-children':!data.children,'cursor-ban':data.total==0}"
+          @click.stop="handleNodeClick(data)"
+          >
             <div class="icon-and-node">
               <span v-if="data.children" class="iconfont"> 
                 <img v-if="data.total==0" class="iconfont" src="../../assets/plant-inactive.png"> 
@@ -46,12 +47,13 @@
 import VJstree from 'vue-jstree';
 import { cellTree } from '@/js/cellTree';
 import eventBus from '@/js/EventBus';
+import filterNullNode from "@/js/filterNullNode";
 
 export default {
   watch: {
       filterText(val) {
         this.$refs.tree.filter(val);
-      }
+      } 
     },
     components:{VJstree},
     methods:{
@@ -72,18 +74,27 @@ export default {
       }
     },
     mounted(){
-      
       eventBus.$on('speciesChange',(species)=>{ 
         this.trees=this.$treedata['data'];
         console.log('celltree:',this.trees);
+        for(let i=0;i<this.trees.length;i++){
+          if(this.trees[i].total==0){
+            this.trees.splice(i,1);
+            i--;
+          }else{
+            this.trees[i]=filterNullNode(this.trees[i]);
+          }
+        }
       })
-      
     },
     data(){
         return{
           filterText: '',
           trees: null
         }
+    },
+    beforeDestroy(){
+      eventBus.$off('speciesChange');
     }
     
 }
@@ -92,6 +103,7 @@ export default {
 <style>
 .cursor-ban{
   cursor:not-allowed;
+
 }
 
 .el-input.is-active .el-input__inner, .el-input__inner:focus{

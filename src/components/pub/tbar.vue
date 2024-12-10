@@ -12,11 +12,9 @@
         <el-menu
         ref="menu"
         :router="true"
-        :default-active="this.$route.matched[0].path"
-        @mouseenter="handleMousein"
-        class = "right-menu"
+        :default-active="$route.path"
+        class = "rightMenu"
         mode="horizontal"
-        
         background-color=rgb(0,0,0,0)
         text-color="#000"
         active-text-color="rgb(44,162,95) !important" >
@@ -24,9 +22,10 @@
         <el-menu-item class="item" index="/celltype">Celltype</el-menu-item>
         <el-menu-item class="item" index="/marker">Marker</el-menu-item>
         <el-menu-item class="item" index="/search">Search</el-menu-item>
-        <el-menu-item class="item" index="/spatial">Spatial</el-menu-item>
-        <el-menu-item class="item" index="/references">References</el-menu-item>
-        <el-menu-item class="item" index="/download">Download</el-menu-item>
+        <el-menu-item class="item" index="/blast">Blast</el-menu-item>
+        <!-- <el-menu-item class="item" index="/spatial">Spatial</el-menu-item> -->
+        <el-menu-item class="item" index="/references">Download</el-menu-item>
+        <!-- <el-menu-item class="item" index="/download">Download</el-menu-item> -->
         <el-submenu boundariesPadding="0">
             <template  slot="title"><span class="sub-item">Help</span></template>
             <el-menu-item class="item" index="/release">Release</el-menu-item>
@@ -50,6 +49,11 @@ export default {
             lastscrollTop:0
         }
     },
+    watch:{
+        activeIndex(val){
+
+        }
+    },
     methods: {
         goto(index){
             if(index=='/marker'){
@@ -69,7 +73,7 @@ export default {
             this.isVisable=false;
         },
                 //监听窗口滚动
-        windowScrollListener() {
+        windowScrollListener(index) {
         //获取操作元素最顶端到页面顶端的垂直距离
         this.scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
         if (this.scrollTop >= 1) {
@@ -90,19 +94,24 @@ export default {
     }
         
     },
-    created(){
+    mounted(){
                 //添加滚动监听事件
         //在窗口滚动时调用监听窗口滚动方法
         window.addEventListener('scroll', this.windowScrollListener);
+        this.$eventBus.$on('changeActiveIndex',(index)=>{
+          console.log('activeIndex:',index)
+          this.activeIndex=index;
+        });
     },
-    destroyed() {
+    beforeDestroy() {
     //离开页面时删除该监听
         window.removeEventListener('scroll', this.windowScrollListener)
+        this.$eventBus.$off('changeActiveIndex');
     }
 }
 </script>
 
-<style>
+<style scoped>
 .item{
     /* height: auto !important;
     
@@ -144,7 +153,7 @@ export default {
 .barhide{
     transform: translateY(-100%);
 }
-.right-menu{
+.rightMenu{
     width:100%;
     height: 90%;
     border-bottom: 0 !important;

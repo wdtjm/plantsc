@@ -20,7 +20,7 @@ import eventBus from '@/js/EventBus';
     methods:{
 
         getPieData(speciesName){
-            console.log('pie $tree data',this.$treedata);
+            //console.log('pie $tree data',this.$treedata);
                 // 处理成功情况
                 let requestData = this.$treedata['data'];
                 
@@ -29,7 +29,7 @@ import eventBus from '@/js/EventBus';
                 
                 requestData.forEach(data => {
                     let e = {};
-                    console.log('data:',data);
+                    //console.log('data:',data);
                     e.value=data['nodeNum'];
                     e.name=data['lable'];
           
@@ -39,7 +39,7 @@ import eventBus from '@/js/EventBus';
                     return b.value-a.value;
                 }) */
                 this.pieData=arr;
-                console.log('pieData:',this.pieData);
+                //console.log('pieData:',this.pieData);
                 this.myEcharts();
         },
         myEcharts(){
@@ -54,10 +54,7 @@ import eventBus from '@/js/EventBus';
                 tooltip: {
                    // trigger: 'item'
                 },
-                legend: {
-                    orient: 'vertical',
-                    left: 'left'
-                },
+                
                 
                 series: [
                     {
@@ -86,6 +83,9 @@ import eventBus from '@/js/EventBus';
         eventBus.$on('speciesChange', (Msg) => {
                 this.getPieData(Msg);
             })
+    },
+    beforeDestroy(){
+        this.pieChart.dispose()
     }
   }
   </script>

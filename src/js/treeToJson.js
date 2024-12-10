@@ -2,7 +2,7 @@ export function treeToJson(tree) {
     function recurse(children) {
       return children.map((item) => {
         const node = {
-          text: item.name,
+          lable: item.name,
           opened:'false',
           tissue: item.tissue
         }

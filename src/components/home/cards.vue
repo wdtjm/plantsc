@@ -49,9 +49,9 @@ export default {
     },
     
     mounted(){
-      console.log('plants:',JSON.stringify(plants.map((item,index)=>{
+      /* console.log('plants:',JSON.stringify(plants.map((item,index)=>{
         return Object.assign({'name':item.name})
-      })));
+      }))); */
     }
 };
 

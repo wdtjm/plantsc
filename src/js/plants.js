@@ -190,7 +190,7 @@ const plants=[
 
           {'name':'Triticum aestivum',
           'url':'Triticum aestivum.jpg',
-          'description':'this is a rice',
+          'description':'this is a rice', 
           'isLatin':true,},
 
           {'name':'Trochodendron aralioides',

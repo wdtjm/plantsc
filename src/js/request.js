@@ -4,7 +4,7 @@ import axios from 'axios'
 // 创建可一个新的axios对象
 const request = axios.create({
     baseURL: 'http://47.98.46.131:9090/',/* process.env.VUE_APP_BASEURL, */   // 后端的接口地址  ip:port
-    timeout: 30000                          // 30s请求超时
+    timeout: 30000000                    // 30s请求超时
 })
 
 // request 拦截器

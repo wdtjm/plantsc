@@ -6,10 +6,10 @@ const cellTree = [
     opened: "false",
     tissue: "Calli",
     children: [
-      { lable: "initiation stage", opened: "false", tissue: "Calli" },
-      { lable: "division stage", opened: "false", tissue: "Calli" },
+      { lable: "Initiation stage", opened: "false", tissue: "Calli" },
+      { lable: "Division stage", opened: "false", tissue: "Calli" },
       {
-        lable: "formation stage",
+        lable: "Formation stage",
         opened: "false",
         tissue: "Calli",
         children: [
@@ -49,17 +49,13 @@ const cellTree = [
     tissue: "Cotyledon",
     children: [
       {
-        lable: "guard cell",
+        lable: "Guard cell",
         opened: "false",
         tissue: "Cotyledon",
         children: [
-          {
-            lable: "guard mother cell",
-            opened: "false",
-            tissue: "Cotyledon",
-          },
+          { lable: "Guard mother cell", opened: "false", tissue: "Cotyledon" },
           { lable: "Young guard cell", opened: "false", tissue: "Cotyledon" },
-          { lable: "meristemoid", opened: "false", tissue: "Cotyledon" },
+          { lable: "Meristemoid", opened: "false", tissue: "Cotyledon" },
           {
             lable: "Meristemoid mother cell",
             opened: "false",
@@ -77,16 +73,8 @@ const cellTree = [
           },
         ],
       },
-      {
-        lable: "mesophyll cell",
-        opened: "false",
-        tissue: "Cotyledon",
-      },
-      {
-        lable: "leaf pavement cell",
-        opened: "false",
-        tissue: "Cotyledon",
-      },
+      { lable: "Mesophyll cell", opened: "false", tissue: "Cotyledon" },
+      { lable: "Leaf pavement cell", opened: "false", tissue: "Cotyledon" },
       { lable: "Reprogrammed cell", opened: "false", tissue: "Cotyledon" },
       { lable: "Vascular stem cell", opened: "false", tissue: "Cotyledon" },
     ],
@@ -102,20 +90,12 @@ const cellTree = [
         tissue: "Flower",
         children: [
           { lable: "Anther", opened: "false", tissue: "Flower" },
-          { lable: "filament", opened: "false", tissue: "Flower" },
+          { lable: "Filament", opened: "false", tissue: "Flower" },
+          { lable: "Ovary replum", opened: "false", tissue: "Flower" },
+          { lable: "Petal vascular system", opened: "false", tissue: "Flower" },
+          { lable: "Style", opened: "false", tissue: "Flower" },
           {
-            lable: "ovary replum",
-            opened: "false",
-            tissue: "Flower",
-          },
-          {
-            lable: "petal vascular system",
-            opened: "false",
-            tissue: "Flower",
-          },
-          { lable: "style", opened: "false", tissue: "Flower" },
-          {
-            lable: "valve margins of pistils",
+            lable: "Valve margins of pistils",
             opened: "false",
             tissue: "Flower",
           },
@@ -129,28 +109,20 @@ const cellTree = [
           { lable: "Cortex", opened: "false", tissue: "Flower" },
           { lable: "Dividing cell", opened: "false", tissue: "Flower" },
           { lable: "Epidermis", opened: "false", tissue: "Flower" },
-          { lable: "cambium cell", opened: "false", tissue: "Flower" },
-          {
-            lable: "flower meristem",
-            opened: "false",
-            tissue: "Flower",
-          },
-          {
-            lable: "mesophyll cell",
-            opened: "false",
-            tissue: "Flower",
-          },
-          { lable: "phloem", opened: "false", tissue: "Flower" },
-          { lable: "Xylem parenchyma ", opened: "false", tissue: "Flower" },
+          { lable: "Cambium cell", opened: "false", tissue: "Flower" },
+          { lable: "Flower meristem", opened: "false", tissue: "Flower" },
+          { lable: "Mesophyll cell", opened: "false", tissue: "Flower" },
+          { lable: "Phloem", opened: "false", tissue: "Flower" },
+          { lable: "Xylem parenchyma", opened: "false", tissue: "Flower" },
         ],
       },
       {
-        lable: "flower",
+        lable: "Flower",
         opened: "false",
         tissue: "Flower",
         children: [
           {
-            lable: "anther",
+            lable: "Anther",
             opened: "false",
             tissue: "Flower",
             children: [
@@ -164,26 +136,28 @@ const cellTree = [
             ],
           },
           {
-            lable: "carpel",
+            lable: "Carpel",
             opened: "false",
             tissue: "Flower",
             children: [
-              { lable: "early carpel", opened: "false", tissue: "Flower" },
+              { lable: "Early carpel", opened: "false", tissue: "Flower" },
             ],
           },
           {
-            lable: "floral epidermis",
+            lable: "Floral epidermis",
             opened: "false",
             tissue: "Flower",
-            children: [{ lable: "Trichome", opened: "false", tissue: "Flower" }],
+            children: [
+              { lable: "Trichome", opened: "false", tissue: "Flower" },
+            ],
           },
           {
-            lable: "flower vascular system",
+            lable: "Flower vascular system",
             opened: "false",
             tissue: "Flower",
           },
           {
-            lable: "inflorescence",
+            lable: "Inflorescence",
             opened: "false",
             tissue: "Flower",
             children: [
@@ -194,45 +168,33 @@ const cellTree = [
               },
             ],
           },
+          { lable: "Mesophyll cell", opened: "false", tissue: "Flower" },
           {
-            lable: "mesophyll cell",
-            opened: "false",
-            tissue: "Flower",
-          },
-          {
-            lable: "meristem",
+            lable: "Meristem",
             opened: "false",
             tissue: "Flower",
             children: [
+              { lable: "Flower meristem", opened: "false", tissue: "Flower" },
               {
-                lable: "flower meristem",
-                opened: "false",
-                tissue: "Flower",
-              },
-              {
-                lable: "inflorescence meristem",
+                lable: "Inflorescence meristem",
                 opened: "false",
                 tissue: "Flower",
               },
             ],
           },
           {
-            lable: "pistil",
+            lable: "Pistil",
             opened: "false",
             tissue: "Flower",
             children: [
+              { lable: "Stigma", opened: "false", tissue: "Flower" },
               {
-                lable: "stigma",
-                opened: "false",
-                tissue: "Flower",
-              },
-              {
-                lable: "plant ovary",
+                lable: "Plant ovary",
                 opened: "false",
                 tissue: "Flower",
                 children: [
                   {
-                    lable: "plant ovary ovule",
+                    lable: "Plant ovary ovule",
                     opened: "false",
                     tissue: "Flower",
                     children: [
@@ -242,32 +204,32 @@ const cellTree = [
                         tissue: "Flower",
                         children: [
                           {
-                            lable: "antipodal cell",
+                            lable: "Antipodal cell",
                             opened: "false",
                             tissue: "Flower",
                           },
                           {
-                            lable: "embryo apical cell",
+                            lable: "Embryo apical cell",
                             opened: "false",
                             tissue: "Flower",
                           },
                           {
-                            lable: "embryo basal cell",
+                            lable: "Embryo basal cell",
                             opened: "false",
                             tissue: "Flower",
                           },
                           {
-                            lable: "embryo sac central cell",
+                            lable: "Embryo sac central cell",
                             opened: "false",
                             tissue: "Flower",
                           },
                           {
-                            lable: "embryo sac egg cell",
+                            lable: "Embryo sac egg cell",
                             opened: "false",
                             tissue: "Flower",
                           },
                           {
-                            lable: "synergid",
+                            lable: "Synergid",
                             opened: "false",
                             tissue: "Flower",
                           },
@@ -284,7 +246,7 @@ const cellTree = [
                             tissue: "Flower",
                           },
                           {
-                            lable: "plant egg cell",
+                            lable: "Plant egg cell",
                             opened: "false",
                             tissue: "Flower",
                           },
@@ -296,17 +258,17 @@ const cellTree = [
                         ],
                       },
                       {
-                        lable: "integument",
+                        lable: "Integument",
                         opened: "false",
                         tissue: "Flower",
                         children: [
                           {
-                            lable: "outer integument",
+                            lable: "Outer integument",
                             opened: "false",
                             tissue: "Flower",
                           },
                           {
-                            lable: "inner integument",
+                            lable: "Inner integument",
                             opened: "false",
                             tissue: "Flower",
                           },
@@ -343,12 +305,12 @@ const cellTree = [
             ],
           },
           {
-            lable: "stamen",
+            lable: "Stamen",
             opened: "false",
             tissue: "Flower",
             children: [
               {
-                lable: "pollen",
+                lable: "Pollen",
                 opened: "false",
                 tissue: "Flower",
                 children: [
@@ -392,11 +354,11 @@ const cellTree = [
             ],
           },
           {
-            lable: "perianth",
+            lable: "Perianth",
             opened: "false",
             tissue: "Flower",
             children: [
-              { lable: "early perianth", opened: "false", tissue: "Flower" },
+              { lable: "Early perianth", opened: "false", tissue: "Flower" },
             ],
           },
         ],
@@ -409,7 +371,7 @@ const cellTree = [
     tissue: "Root",
     children: [
       {
-        lable: "lateral root",
+        lable: "Lateral root",
         opened: "false",
         tissue: "Root",
         children: [
@@ -419,19 +381,15 @@ const cellTree = [
             tissue: "Root",
             children: [
               {
-                lable: "non-hair root epidermal cell",
+                lable: "Non-hair root epidermal cell",
                 opened: "false",
                 tissue: "Root",
               },
-              {
-                lable: "trichoblast",
-                opened: "false",
-                tissue: "Root",
-              },
+              { lable: "Trichoblast", opened: "false", tissue: "Root" },
             ],
           },
           {
-            lable: "lateral root cap",
+            lable: "Lateral root cap",
             opened: "false",
             tissue: "Root",
             children: [
@@ -440,15 +398,11 @@ const cellTree = [
                 opened: "false",
                 tissue: "Root",
               },
-              {
-                lable: "columella",
-                opened: "false",
-                tissue: "Root",
-              },
+              { lable: "Columella", opened: "false", tissue: "Root" },
             ],
           },
           {
-            lable: "lateral root primordium",
+            lable: "Lateral root primordium",
             opened: "false",
             tissue: "Root",
             children: [
@@ -458,44 +412,36 @@ const cellTree = [
                 tissue: "Root",
               },
               {
-                lable: "pericyclic lateral root primordium",
+                lable: "Pericyclic lateral root primordium",
                 opened: "false",
                 tissue: "Root",
               },
             ],
           },
           {
-            lable: "pericycle cell",
+            lable: "Pericycle cell",
             opened: "false",
             tissue: "Root",
             children: [
               {
-                lable: "phloem pole pericycle cell",
+                lable: "Phloem pole pericycle cell",
                 opened: "false",
                 tissue: "Root",
               },
               {
-                lable: "xylem pole pericycle cell",
+                lable: "Xylem pole pericycle cell",
                 opened: "false",
                 tissue: "Root",
               },
             ],
           },
           {
-            lable: "phloem",
+            lable: "Phloem",
             opened: "false",
             tissue: "Root",
             children: [
-              {
-                lable: "companion cell",
-                opened: "false",
-                tissue: "Root",
-              },
-              {
-                lable: "protophloem",
-                opened: "false",
-                tissue: "Root",
-              },
+              { lable: "Companion cell", opened: "false", tissue: "Root" },
+              { lable: "Protophloem", opened: "false", tissue: "Root" },
               {
                 lable: "Protophloem-like cell",
                 opened: "false",
@@ -504,7 +450,7 @@ const cellTree = [
             ],
           },
           {
-            lable: "quiescent center",
+            lable: "Quiescent center",
             opened: "false",
             tissue: "Root",
             children: [
@@ -515,14 +461,15 @@ const cellTree = [
               },
             ],
           },
-          { lable: "root cortex", opened: "false", tissue: "Root" },
+          { lable: "Root cortex", opened: "false", tissue: "Root" },
           {
-            lable: "root endodermis",
+            lable: "Root endodermis",
             opened: "false",
             tissue: "Root",
             children: [
               {
-                lable: "Endodermis and lateral root primordia responding endodermis",
+                lable:
+                  "Endodermis and lateral root primordia responding endodermis",
                 opened: "false",
                 tissue: "Root",
               },
@@ -533,31 +480,19 @@ const cellTree = [
               },
             ],
           },
+          { lable: "Root lateral meristem", opened: "false", tissue: "Root" },
+          { lable: "Root procambium", opened: "false", tissue: "Root" },
           {
-            lable: "root lateral meristem",
-            opened: "false",
-            tissue: "Root",
-          },
-          {
-            lable: "root procambium",
-            opened: "false",
-            tissue: "Root",
-          },
-          {
-            lable: "root stele",
+            lable: "Root stele",
             opened: "false",
             tissue: "Root",
             children: [
               {
-                lable: "xylem",
+                lable: "Xylem",
                 opened: "false",
                 tissue: "Root",
                 children: [
-                  {
-                    lable: "protoxylem",
-                    opened: "false",
-                    tissue: "Root",
-                  },
+                  { lable: "Protoxylem", opened: "false", tissue: "Root" },
                 ],
               },
             ],
@@ -570,8 +505,8 @@ const cellTree = [
         opened: "false",
         tissue: "Root",
         children: [
-          { lable: "cambium", opened: "false", tissue: "Root" },
-          { lable: "stem cell niche", opened: "false", tissue: "Root" },
+          { lable: "Cambium", opened: "false", tissue: "Root" },
+          { lable: "Stem cell niche", opened: "false", tissue: "Root" },
           { lable: "Dividing cell", opened: "false", tissue: "Root" },
           {
             lable: "Elongation zone",
@@ -600,24 +535,24 @@ const cellTree = [
                 tissue: "Root",
                 children: [
                   {
-                    lable: "pericycle cell",
+                    lable: "Pericycle cell",
                     opened: "false",
                     tissue: "Root",
                     children: [
                       {
-                        lable: "phloem pole pericycle cell",
+                        lable: "Phloem pole pericycle cell",
                         opened: "false",
                         tissue: "Root",
                       },
                       {
-                        lable: "xylem pole pericycle cell",
+                        lable: "Xylem pole pericycle cell",
                         opened: "false",
                         tissue: "Root",
                       },
                     ],
                   },
                   {
-                    lable: "root vascular system",
+                    lable: "Root vascular system",
                     opened: "false",
                     tissue: "Root",
                     children: [
@@ -632,7 +567,7 @@ const cellTree = [
                         tissue: "Root",
                         children: [
                           {
-                            lable: "protoxylem",
+                            lable: "Protoxylem",
                             opened: "false",
                             tissue: "Root",
                             children: [
@@ -649,7 +584,7 @@ const cellTree = [
                             ],
                           },
                           {
-                            lable: "metaxylem",
+                            lable: "Metaxylem",
                             opened: "false",
                             tissue: "Root",
                           },
@@ -661,7 +596,7 @@ const cellTree = [
                         tissue: "Root",
                         children: [
                           {
-                            lable: "companion cell",
+                            lable: "Companion cell",
                             opened: "false",
                             tissue: "Root",
                           },
@@ -671,12 +606,12 @@ const cellTree = [
                             tissue: "Root",
                           },
                           {
-                            lable: "protophloem",
+                            lable: "Protophloem",
                             opened: "false",
                             tissue: "Root",
                           },
                           {
-                            lable: "sieve element",
+                            lable: "Sieve element",
                             opened: "false",
                             tissue: "Root",
                             children: [
@@ -798,7 +733,11 @@ const cellTree = [
                 opened: "false",
                 tissue: "Root",
               },
-              { lable: "Meristem trichoblast", opened: "false", tissue: "Root" },
+              {
+                lable: "Meristem trichoblast",
+                opened: "false",
+                tissue: "Root",
+              },
               {
                 lable: "Meristem cortex",
                 opened: "false",
@@ -857,7 +796,11 @@ const cellTree = [
                 opened: "false",
                 tissue: "Root",
                 children: [
-                  { lable: "Vascular Initial", opened: "false", tissue: "Root" },
+                  {
+                    lable: "Vascular Initial",
+                    opened: "false",
+                    tissue: "Root",
+                  },
                 ],
               },
               {
@@ -881,12 +824,12 @@ const cellTree = [
                     tissue: "Root",
                   },
                   {
-                    lable: "root apical meristem",
+                    lable: "Root apical meristem",
                     opened: "false",
                     tissue: "Root",
                     children: [
                       {
-                        lable: "root procambium",
+                        lable: "Root procambium",
                         opened: "false",
                         tissue: "Root",
                       },
@@ -901,18 +844,14 @@ const cellTree = [
               },
             ],
           },
+          { lable: "Photosynthetic cell", opened: "false", tissue: "Root" },
           {
-            lable: "photosynthetic cell",
-            opened: "false",
-            tissue: "Root",
-          },
-          {
-            lable: "root cap",
+            lable: "Root cap",
             opened: "false",
             tissue: "Root",
             children: [
               {
-                lable: "columella root cap cell",
+                lable: "Columella root cap cell",
                 opened: "false",
                 tissue: "Root",
                 children: [
@@ -921,7 +860,11 @@ const cellTree = [
                     opened: "false",
                     tissue: "Root",
                   },
-                  { lable: "Distal columella", opened: "false", tissue: "Root" },
+                  {
+                    lable: "Distal columella",
+                    opened: "false",
+                    tissue: "Root",
+                  },
                 ],
               },
               {
@@ -932,50 +875,50 @@ const cellTree = [
             ],
           },
           {
-            lable: "root epidermis",
+            lable: "Root epidermis",
             opened: "false",
             tissue: "Root",
             children: [
               {
-                lable: "non-hair root epidermal cell",
+                lable: "Non-hair root epidermal cell",
                 opened: "false",
                 tissue: "Root",
               },
               {
-                lable: "root hair",
+                lable: "Root hair",
                 opened: "false",
                 tissue: "Root",
                 children: [
+                  { lable: "Trichoblast", opened: "false", tissue: "Root" },
+                  { lable: "Early root hair", opened: "false", tissue: "Root" },
                   {
-                    lable: "trichoblast",
+                    lable: "Mature root hair",
                     opened: "false",
                     tissue: "Root",
                   },
-                  { lable: "Early root hair", opened: "false", tissue: "Root" },
-                  { lable: "Mature root hair", opened: "false", tissue: "Root" },
                 ],
               },
             ],
           },
           {
-            lable: "root stele",
+            lable: "Root stele",
             opened: "false",
             tissue: "Root",
             children: [
               {
-                lable: "pericycle cell",
+                lable: "Pericycle cell",
                 opened: "false",
                 tissue: "Root",
                 children: [
                   {
-                    lable: "phloem pole pericycle cell",
+                    lable: "Phloem pole pericycle cell",
                     opened: "false",
                     tissue: "Root",
                   },
                 ],
               },
               {
-                lable: "root vascular system",
+                lable: "Root vascular system",
                 opened: "false",
                 tissue: "Root",
                 children: [
@@ -985,12 +928,12 @@ const cellTree = [
                     tissue: "Root",
                   },
                   {
-                    lable: "xylem",
+                    lable: "Xylem",
                     opened: "false",
                     tissue: "Root",
                     children: [
                       {
-                        lable: "protoxylem",
+                        lable: "Protoxylem",
                         opened: "false",
                         tissue: "Root",
                         children: [
@@ -1006,20 +949,16 @@ const cellTree = [
                           },
                         ],
                       },
-                      {
-                        lable: "metaxylem",
-                        opened: "false",
-                        tissue: "Root",
-                      },
+                      { lable: "Metaxylem", opened: "false", tissue: "Root" },
                     ],
                   },
                   {
-                    lable: "phloem",
+                    lable: "Phloem",
                     opened: "false",
                     tissue: "Root",
                     children: [
                       {
-                        lable: "companion cell",
+                        lable: "Companion cell",
                         opened: "false",
                         tissue: "Root",
                       },
@@ -1028,13 +967,9 @@ const cellTree = [
                         opened: "false",
                         tissue: "Root",
                       },
+                      { lable: "Protophloem", opened: "false", tissue: "Root" },
                       {
-                        lable: "protophloem",
-                        opened: "false",
-                        tissue: "Root",
-                      },
-                      {
-                        lable: "sieve element",
+                        lable: "Sieve element",
                         opened: "false",
                         tissue: "Root",
                         children: [
@@ -1048,7 +983,11 @@ const cellTree = [
                             opened: "false",
                             tissue: "Root",
                           },
-                          { lable: "Early SE", opened: "false", tissue: "Root" },
+                          {
+                            lable: "Early SE",
+                            opened: "false",
+                            tissue: "Root",
+                          },
                           { lable: "Late SE", opened: "false", tissue: "Root" },
                         ],
                       },
@@ -1072,119 +1011,79 @@ const cellTree = [
         opened: "false",
         tissue: "Leaf",
         children: [
-          { lable: "guard cell", opened: "false", tissue: "Leaf" },
-          {
-            lable: "mesophyll cell",
-            opened: "false",
-            tissue: "Leaf",
-          },
-          {
-            lable: "vascular system",
-            opened: "false",
-            tissue: "Leaf",
-          },
+          { lable: "Guard cell", opened: "false", tissue: "Leaf" },
+          { lable: "Mesophyll cell", opened: "false", tissue: "Leaf" },
+          { lable: "Vascular system", opened: "false", tissue: "Leaf" },
         ],
       },
       {
-        lable: "leaf epidermis",
+        lable: "Leaf epidermis",
         opened: "false",
         tissue: "Leaf",
         children: [
           {
-            lable: "leaf pavement cell",
+            lable: "Leaf pavement cell",
             opened: "false",
             tissue: "Leaf",
             children: [
               {
-                lable: "leaf abaxial pavement cell",
+                lable: "Leaf abaxial pavement cell",
                 opened: "false",
                 tissue: "Leaf",
               },
               {
-                lable: "leaf adaxial pavement cell",
+                lable: "Leaf adaxial pavement cell",
                 opened: "false",
                 tissue: "Leaf",
               },
             ],
           },
+          { lable: "Leaf trichome", opened: "false", tissue: "Leaf" },
           {
-            lable: "leaf trichome",
-            opened: "false",
-            tissue: "Leaf",
-          },
-          {
-            lable: "leaf guard cell",
+            lable: "Leaf guard cell",
             opened: "false",
             tissue: "Leaf",
             children: [
-              {
-                lable: "guard mother cell",
-                opened: "false",
-                tissue: "Leaf",
-              },
+              { lable: "Guard mother cell", opened: "false", tissue: "Leaf" },
               { lable: "Young guard cell", opened: "false", tissue: "Leaf" },
             ],
           },
-          {
-            lable: "stomatal initial cell",
-            opened: "false",
-            tissue: "Leaf",
-          },
-          { lable: "hydathode", opened: "false", tissue: "Leaf" },
+          { lable: "Stomatal initial cell", opened: "false", tissue: "Leaf" },
+          { lable: "Hydathode", opened: "false", tissue: "Leaf" },
           { lable: "Meristemoid mother cell", opened: "false", tissue: "Leaf" },
         ],
       },
       {
-        lable: "leaf vascular system",
+        lable: "Leaf vascular system",
         opened: "false",
         tissue: "Leaf",
         children: [
           {
-            lable: "phloem",
+            lable: "Phloem",
             opened: "false",
             tissue: "Leaf",
             children: [
-              {
-                lable: "companion cell",
-                opened: "false",
-                tissue: "Leaf",
-              },
+              { lable: "Companion cell", opened: "false", tissue: "Leaf" },
               { lable: "Phloem parenchyma", opened: "false", tissue: "Leaf" },
-              {
-                lable: "protophloem",
-                opened: "false",
-                tissue: "Leaf",
-              },
-              {
-                lable: "sieve element",
-                opened: "false",
-                tissue: "Leaf",
-              },
+              { lable: "Protophloem", opened: "false", tissue: "Leaf" },
+              { lable: "Sieve element", opened: "false", tissue: "Leaf" },
             ],
           },
-          { lable: "xylem", opened: "false", tissue: "Leaf" },
+          { lable: "Xylem", opened: "false", tissue: "Leaf" },
         ],
       },
       { lable: "Meristem", opened: "false", tissue: "Leaf" },
       {
-        lable: "mesophyll cell",
+        lable: "Mesophyll cell",
         opened: "false",
         tissue: "Leaf",
         children: [
-          {
-            lable: "palisade mesophyll cell",
-            opened: "false",
-            tissue: "Leaf",
-          },
-          {
-            lable: "spongy mesophyll cell",
-            opened: "false",
-            tissue: "Leaf",
-          },
+          { lable: "Palisade mesophyll cell", opened: "false", tissue: "Leaf" },
+          { lable: "Spongy mesophyll cell", opened: "false", tissue: "Leaf" },
         ],
       },
       { lable: "Myrosinase cell", opened: "false", tissue: "Leaf" },
-      { lable: "initial cell", opened: "false", tissue: "Leaf" },
+      { lable: "Initial cell", opened: "false", tissue: "Leaf" },
       { lable: "Senescing cell", opened: "false", tissue: "Leaf" },
     ],
   },
@@ -1209,7 +1108,7 @@ const cellTree = [
             ],
           },
           {
-            lable: "protoderm",
+            lable: "Protoderm",
             opened: "false",
             tissue: "Seed",
             children: [
@@ -1234,7 +1133,7 @@ const cellTree = [
         ],
       },
       {
-        lable: "endosperm",
+        lable: "Endosperm",
         opened: "false",
         tissue: "Seed",
         children: [
@@ -1263,15 +1162,11 @@ const cellTree = [
                 opened: "false",
                 tissue: "Seed",
               },
-              {
-                lable: "chalazal cyst",
-                opened: "false",
-                tissue: "Seed",
-              },
+              { lable: "Chalazal cyst", opened: "false", tissue: "Seed" },
             ],
           },
           {
-            lable: "micropylar endosperm",
+            lable: "Micropylar endosperm",
             opened: "false",
             tissue: "Seed",
             children: [
@@ -1286,14 +1181,15 @@ const cellTree = [
                 tissue: "Seed",
               },
               {
-                lable: "Endosperm at linear cotyledon and maturation green stages",
+                lable:
+                  "Endosperm at linear cotyledon and maturation green stages",
                 opened: "false",
                 tissue: "Seed",
               },
             ],
           },
           {
-            lable: "peripheral endosperm",
+            lable: "Peripheral endosperm",
             opened: "false",
             tissue: "Seed",
             children: [
@@ -1318,31 +1214,32 @@ const cellTree = [
                 tissue: "Seed",
               },
               {
-                lable: "Peripheral endosperm at the globular stage of development",
+                lable:
+                  "Peripheral endosperm at the globular stage of development",
                 opened: "false",
                 tissue: "Seed",
               },
-              { lable: "Potential peripheral", opened: "false", tissue: "Seed" },
+              {
+                lable: "Potential peripheral",
+                opened: "false",
+                tissue: "Seed",
+              },
             ],
           },
         ],
       },
       { lable: "Flavonol-synthesizing", opened: "false", tissue: "Seed" },
-      { lable: "ovary placenta", opened: "false", tissue: "Seed" },
-      {
-        lable: "ovule primordium",
-        opened: "false",
-        tissue: "Seed",
-      },
+      { lable: "Ovary placenta", opened: "false", tissue: "Seed" },
+      { lable: "Ovule primordium", opened: "false", tissue: "Seed" },
       { lable: "PA-synthesizing endothelium", opened: "false", tissue: "Seed" },
       {
-        lable: "seed coat",
+        lable: "Seed coat",
         opened: "false",
         tissue: "Seed",
         children: [
           { lable: "Chalazal seed coat", opened: "false", tissue: "Seed" },
           {
-            lable: "developing seed coat",
+            lable: "Developing seed coat",
             opened: "false",
             tissue: "Seed",
             children: [
@@ -1352,7 +1249,8 @@ const cellTree = [
                 tissue: "Seed",
               },
               {
-                lable: "Seed coat at linear cotyledon and maturation green stages",
+                lable:
+                  "Seed coat at linear cotyledon and maturation green stages",
                 opened: "false",
                 tissue: "Seed",
               },
@@ -1366,7 +1264,7 @@ const cellTree = [
             tissue: "Seed",
           },
           {
-            lable: "seed coat anatomy",
+            lable: "Seed coat anatomy",
             opened: "false",
             tissue: "Seed",
             children: [
@@ -1382,11 +1280,7 @@ const cellTree = [
                   },
                 ],
               },
-              {
-                lable: "seed coat epidermis",
-                opened: "false",
-                tissue: "Seed",
-              },
+              { lable: "Seed coat epidermis", opened: "false", tissue: "Seed" },
               {
                 lable: "Testa outer integument layer 1",
                 opened: "false",
@@ -1401,22 +1295,22 @@ const cellTree = [
           },
         ],
       },
-      { lable: "seed funicle", opened: "false", tissue: "Seed" },
+      { lable: "Seed funicle", opened: "false", tissue: "Seed" },
       {
-        lable: "plant embryo",
+        lable: "Plant embryo",
         opened: "false",
         tissue: "Seed",
         children: [
-          { lable: "embryo root", opened: "false", tissue: "Seed" },
-          {
-            lable: "plant embryo cotyledon",
-            opened: "false",
-            tissue: "Seed",
-          },
+          { lable: "Embryo root", opened: "false", tissue: "Seed" },
+          { lable: "Plant embryo cotyledon", opened: "false", tissue: "Seed" },
         ],
       },
-      { lable: "procambium", opened: "false", tissue: "Seed" },
-      { lable: "Vascular strands of siliques", opened: "false", tissue: "Seed" },
+      { lable: "Procambium", opened: "false", tissue: "Seed" },
+      {
+        lable: "Vascular strands of siliques",
+        opened: "false",
+        tissue: "Seed",
+      },
     ],
   },
   {
@@ -1425,76 +1319,60 @@ const cellTree = [
     tissue: "Shoot",
     children: [
       {
-        lable: "shoot apex",
+        lable: "Shoot apex",
         opened: "false",
         tissue: "Shoot",
         children: [
           { lable: "Epidermis", opened: "false", tissue: "Shoot" },
           { lable: "Sub-epidermis", opened: "false", tissue: "Shoot" },
           {
-            lable: "shoot system",
+            lable: "Shoot system",
             opened: "false",
             tissue: "Shoot",
             children: [
               {
-                lable: "shoot system vascular system",
+                lable: "Shoot system vascular system",
                 opened: "false",
                 tissue: "Shoot",
               },
             ],
           },
           {
-            lable: "stoma",
+            lable: "Stoma",
             opened: "false",
             tissue: "Shoot",
             children: [
-              {
-                lable: "companion cell",
-                opened: "false",
-                tissue: "Shoot",
-              },
-              {
-                lable: "guard cell",
-                opened: "false",
-                tissue: "Shoot",
-              },
+              { lable: "Companion cell", opened: "false", tissue: "Shoot" },
+              { lable: "Guard cell", opened: "false", tissue: "Shoot" },
             ],
           },
-          {
-            lable: "mesophyll cell",
-            opened: "false",
-            tissue: "Shoot",
-          },
+          { lable: "Mesophyll cell", opened: "false", tissue: "Shoot" },
           { lable: "Proliferating cell", opened: "false", tissue: "Shoot" },
           {
-            lable: "shoot meristem",
+            lable: "Shoot meristem",
             opened: "false",
             tissue: "Shoot",
             children: [
               {
-                lable: "shoot apical meristem",
+                lable: "Shoot apical meristem",
                 opened: "false",
                 tissue: "Shoot",
                 children: [
                   {
-                    lable: "shoot meristematic apical cell",
+                    lable: "Shoot meristematic apical cell",
                     opened: "false",
                     tissue: "Shoot",
                   },
+                  { lable: "Central zone", opened: "false", tissue: "Shoot" },
                   {
-                    lable: "central zone",
-                    opened: "false",
-                    tissue: "Shoot",
-                  },
-                  {
-                    lable: "vascular leaf founder cell",
+                    lable: "Vascular leaf founder cell",
                     opened: "false",
                     tissue: "Shoot",
                   },
                 ],
               },
               {
-                lable: "vascular leaf primordium",
+                lable: "Vascular leaf primordium",
                 opened: "false",
                 tissue: "Shoot",
                 children: [
@@ -1516,7 +1394,7 @@ const cellTree = [
                 tissue: "Shoot",
               },
               {
-                lable: "floral organ primordium",
+                lable: "Floral organ primordium",
                 opened: "false",
                 tissue: "Shoot",
                 children: [
@@ -1527,59 +1405,27 @@ const cellTree = [
                   },
                 ],
               },
-              {
-                lable: "meristematic cell",
-                opened: "false",
-                tissue: "Shoot",
-              },
+              { lable: "Meristematic cell", opened: "false", tissue: "Shoot" },
             ],
           },
-          { lable: "phloem", opened: "false", tissue: "Shoot" },
-          {
-            lable: "quiescent center",
-            opened: "false",
-            tissue: "Shoot",
-          },
+          { lable: "Phloem", opened: "false", tissue: "Shoot" },
+          { lable: "Quiescent center", opened: "false", tissue: "Shoot" },
           { lable: "Young flower", opened: "false", tissue: "Shoot" },
         ],
       },
       {
-        lable: "shoot",
+        lable: "Shoot",
         opened: "false",
         tissue: "Shoot",
         children: [
-          {
-            lable: "bundle sheath cell",
-            opened: "false",
-            tissue: "Shoot",
-          },
-          {
-            lable: "mesophyll cell",
-            opened: "false",
-            tissue: "Shoot",
-          },
-          {
-            lable: "myrosin cell",
-            opened: "false",
-            tissue: "Shoot",
-          },
+          { lable: "Bundle sheath cell", opened: "false", tissue: "Shoot" },
+          { lable: "Mesophyll cell", opened: "false", tissue: "Shoot" },
+          { lable: "Myrosin cell", opened: "false", tissue: "Shoot" },
           { lable: "Parenchyma", opened: "false", tissue: "Shoot" },
           { lable: "Proliferating cell", opened: "false", tissue: "Shoot" },
-          {
-            lable: "root procambium",
-            opened: "false",
-            tissue: "Shoot",
-          },
-          {
-            lable: "shoot apical meristem",
-            opened: "false",
-            tissue: "Shoot",
-          },
-          {
-            lable: "shoot epidermal cell",
-            opened: "false",
-            tissue: "Shoot",
-          },
+          { lable: "Root procambium", opened: "false", tissue: "Shoot" },
+          { lable: "Shoot apical meristem", opened: "false", tissue: "Shoot" },
+          { lable: "Shoot epidermal cell", opened: "false", tissue: "Shoot" },
           { lable: "Stressed cell", opened: "false", tissue: "Shoot" },
         ],
       },

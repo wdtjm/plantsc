@@ -9,6 +9,8 @@ import references from '@/pages/references.vue'
 import release from '@/pages/release.vue'
 import search from '@/pages/search.vue'
 import spatial from '@/pages/spatial.vue'
+import update from '@/pages/update.vue'
+import markerDetail from '@/components/marker/marker-detail.vue'
 
 Vue.use(VueRouter)
 
@@ -32,6 +34,11 @@ const routes = [
     path: '/marker',
     name: 'marker',
     component: marker
+  },
+  {
+    path: '/markerdetail',
+    name: 'markerdetail',
+    component: markerDetail
   },
   {
     path: '/search',
@@ -63,6 +70,16 @@ const routes = [
     name: 'overview',
     component: overview
   },
+  {
+    path: '/update',
+    name: 'update',
+    component: update
+  },
+  {
+    path: '/blast',
+    name : 'blast',
+    component: () => import('@/pages/blast.vue')
+  }
   
  
 ]

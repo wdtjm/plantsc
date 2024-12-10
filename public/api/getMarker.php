@@ -13,8 +13,8 @@ $result_array = [];
 
 function getmarker($species,$tissue,$celltype,$pdo){
     try {
-        $celltype_all=$celltype . '%';
-        $sql = "SELECT * FROM Sheet1 WHERE Species = '$species' AND Celltypes LIKE '$celltype_all' AND Tissues = '$tissue'";
+        //$celltype_all=$celltype . '%';
+        $sql = "SELECT * FROM Sheet1 WHERE Species = '$species' AND Celltypes LIKE '$celltype' AND Tissues = '$tissue'";
         $stmt = $pdo->prepare($sql);
 
         $stmt->execute();
@@ -32,7 +32,7 @@ for ($i = 0; $i < count($array); $i++) {
         $rows = getmarker($species,$array[$i]['tissue'],$array[$i]['lable'],$pdo);
         if($rows!=[])
         {
-            $result_array+=$rows;
+            $result_array=array_merge($rows,$result_array);
         }   
         
     }

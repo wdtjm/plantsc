@@ -1,0 +1,3725 @@
+[
+    {
+        "label": "Calli",
+        "opened": "false",
+        "tissue": "Calli",
+        "children": [
+            {
+                "label": "Epidermis-like cell",
+                "opened": "false",
+                "tissue": "Calli",
+                "children": null
+            },
+            {
+                "label": "Lateral root cap like cell",
+                "opened": "false",
+                "tissue": "Calli",
+                "children": null
+            },
+            {
+                "label": "Quiescent center-like cell",
+                "opened": "false",
+                "tissue": "Calli",
+                "children": null
+            },
+            {
+                "label": "Vascular-initial-like cell",
+                "opened": "false",
+                "tissue": "Calli",
+                "children": null
+            },
+            {
+                "label": "Explant vasculature and callus founder cell",
+                "opened": "false",
+                "tissue": "Calli",
+                "children": null
+            }
+        ]
+    },
+    {
+        "label": "Inflorescence",
+        "opened": "false",
+        "tissue": "Inflorescence",
+        "children": [
+            {
+                "label": "Inflorescence rachis",
+                "opened": "false",
+                "tissue": "Inflorescence",
+                "children": [
+                    {
+                        "label": "Rachis abscission zone",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Inflorescence leaf",
+                "opened": "false",
+                "tissue": "Inflorescence",
+                "children": [
+                    {
+                        "label": "Involucre",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    },
+                    {
+                        "label": "Flower bract",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    },
+                    {
+                        "label": "Cryptic bract",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Spikelet",
+                "opened": "false",
+                "tissue": "Inflorescence",
+                "children": [
+                    {
+                        "label": "Spikelet floret",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": [
+                            {
+                                "label": "Lemma",
+                                "opened": "false",
+                                "tissue": "Inflorescence",
+                                "children": [
+                                    {
+                                        "label": "Sterile lemma",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Fertile lemma",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Lemma awn",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Palea",
+                                "opened": "false",
+                                "tissue": "Inflorescence",
+                                "children": [
+                                    {
+                                        "label": "Palea awn",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lodicule",
+                                "opened": "false",
+                                "tissue": "Inflorescence",
+                                "children": null
+                            },
+                            {
+                                "label": "Stamen",
+                                "opened": "false",
+                                "tissue": "Inflorescence",
+                                "children": [
+                                    {
+                                        "label": "Anther",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": [
+                                            {
+                                                "label": "Early anther",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Intermediate anther",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Late anther",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Pollen sac",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": [
+                                                    {
+                                                        "label": "Male archesporial cell",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Primary parietal cell",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Primary sporogenous cell",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Anther wall",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": [
+                                                            {
+                                                                "label": "Anther wall exothecium",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Anther wall endothecium",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Anther wall middle layer",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Anther wall tapetum",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "label": "Pollen mother cell",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Developing male gametophytes",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": [
+                                                            {
+                                                                "label": "Generative nuclei",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Microspore nuclei",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Sperm nuclei",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Trans",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Vegetative nuclei",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "label": "Pollen",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": [
+                                                            {
+                                                                "label": "Pollen sperm cell",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Connective",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": [
+                                                    {
+                                                        "label": "Connective parenchyma",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Connective vascular system",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Filament",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": [
+                                            {
+                                                "label": "Filament epidermis",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Filament parenchyma",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Filament vascular system",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Pistil",
+                                "opened": "false",
+                                "tissue": "Inflorescence",
+                                "children": [
+                                    {
+                                        "label": "Carpel",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": [
+                                            {
+                                                "label": "Early carpel",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Stigma",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": [
+                                            {
+                                                "label": "Stigma epidermis",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Stigma papilla cell",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Style",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": [
+                                            {
+                                                "label": "Style epidermis",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Style parenchyma",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Style vascular bundle",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Style canal cell",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Style transmitting tissue",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Plant ovary",
+                                        "opened": "false",
+                                        "tissue": "Inflorescence",
+                                        "children": [
+                                            {
+                                                "label": "Ovary wall",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Ovary locule",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Plant ovary ovule",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": [
+                                                    {
+                                                        "label": "Ovule primordium",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": [
+                                                            {
+                                                                "label": "Ovule primordium parenchyma",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "label": "Female archesporial cell",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Primary parietal cell",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Primary sporogenous cell",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Nucellus",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Embryo-sac mother cell",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Embryo sac",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": [
+                                                            {
+                                                                "label": "Mononuclear embryo sac",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Two-nucleate embryo sac",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Four-nucleate embryo sac",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Eight-nucleate embryo sac",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": [
+                                                                    {
+                                                                        "label": "Polar nucleus",
+                                                                        "opened": "false",
+                                                                        "tissue": "Inflorescence",
+                                                                        "children": null
+                                                                    },
+                                                                    {
+                                                                        "label": "Micropylar nucleus",
+                                                                        "opened": "false",
+                                                                        "tissue": "Inflorescence",
+                                                                        "children": null
+                                                                    },
+                                                                    {
+                                                                        "label": "Chalazal nucleus",
+                                                                        "opened": "false",
+                                                                        "tissue": "Inflorescence",
+                                                                        "children": null
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "label": "Mature embryo sac",
+                                                                "opened": "false",
+                                                                "tissue": "Inflorescence",
+                                                                "children": [
+                                                                    {
+                                                                        "label": "Embryo sac central cell",
+                                                                        "opened": "false",
+                                                                        "tissue": "Inflorescence",
+                                                                        "children": null
+                                                                    },
+                                                                    {
+                                                                        "label": "Egg apparatus",
+                                                                        "opened": "false",
+                                                                        "tissue": "Inflorescence",
+                                                                        "children": [
+                                                                            {
+                                                                                "label": "Embryo sac egg cell",
+                                                                                "opened": "false",
+                                                                                "tissue": "Inflorescence",
+                                                                                "children": null
+                                                                            },
+                                                                            {
+                                                                                "label": "Synergid",
+                                                                                "opened": "false",
+                                                                                "tissue": "Inflorescence",
+                                                                                "children": null
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "label": "Antipodal cell",
+                                                                        "opened": "false",
+                                                                        "tissue": "Inflorescence",
+                                                                        "children": null
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Integument",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": [
+                                                    {
+                                                        "label": "Outer integument",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Inner integument",
+                                                        "opened": "false",
+                                                        "tissue": "Inflorescence",
+                                                        "children": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Ovary placenta",
+                                                "opened": "false",
+                                                "tissue": "Inflorescence",
+                                                "children": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Floret abscission zone",
+                                "opened": "false",
+                                "tissue": "Inflorescence",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Glume",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": [
+                            {
+                                "label": "Glume awn",
+                                "opened": "false",
+                                "tissue": "Inflorescence",
+                                "children": null
+                            },
+                            {
+                                "label": "Rudimentary glume",
+                                "opened": "false",
+                                "tissue": "Inflorescence",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Spikelet rachilla",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    },
+                    {
+                        "label": "Spikelet identity cell",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    },
+                    {
+                        "label": "Spikelet supporting cell",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Inflorescence meristem",
+                "opened": "false",
+                "tissue": "Inflorescence",
+                "children": [
+                    {
+                        "label": "Inflorescence branch meristem",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    },
+                    {
+                        "label": "Spikelet meristem",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    },
+                    {
+                        "label": "Floret meristem",
+                        "opened": "false",
+                        "tissue": "Inflorescence",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Inflorescence stem cambium",
+                "opened": "false",
+                "tissue": "Inflorescence",
+                "children": null
+            }
+        ]
+    },
+    {
+        "label": "Flower",
+        "opened": "false",
+        "tissue": "Flower",
+        "children": [
+            {
+                "label": "Flower bract",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": null
+            },
+            {
+                "label": "Flower pedicel",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": null
+            },
+            {
+                "label": "Receptacle",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": null
+            },
+            {
+                "label": "Calyx",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": [
+                    {
+                        "label": "Sepal",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Calyx tube",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Calyx lobe",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Epicalyx",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": null
+            },
+            {
+                "label": "Corolla",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": [
+                    {
+                        "label": "Petal",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": [
+                            {
+                                "label": "Petal vascular system",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Labellum",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": [
+                                    {
+                                        "label": "Labellum lobe",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": [
+                                            {
+                                                "label": "Middle lobe",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Lateral lobe",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Labellum callus",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Labellum disk",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Lamella",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Hypochile",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Mesochile",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Epichile",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Banner petal",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Wing petal",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Keel petal",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Corolla tube",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Corolla lobe",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Perianth",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": [
+                    {
+                        "label": "Early perianth",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Tepal",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Column",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": [
+                    {
+                        "label": "Anther cap",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Column wing",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Column foot",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Stamen",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": [
+                    {
+                        "label": "Anther",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": [
+                            {
+                                "label": "Early anther",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Intermediate anther",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Late anther",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Pollen sac",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": [
+                                    {
+                                        "label": "Male archesporial cell",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Primary parietal cell",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Primary sporogenous cell",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Anther wall",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": [
+                                            {
+                                                "label": "Anther wall exothecium",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Anther wall endothecium",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Anther wall middle layer",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Anther wall tapetum",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Pollen mother cell",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Developing male gametophytes",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": [
+                                            {
+                                                "label": "Generative nuclei",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Microspore nuclei",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Sperm nuclei",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Trans",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Vegetative nuclei",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Pollen",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": [
+                                            {
+                                                "label": "Pollen sperm cell",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Connective",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": [
+                                    {
+                                        "label": "Connective parenchyma",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Connective vascular system",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Filament",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": [
+                            {
+                                "label": "Filament epidermis",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Filament parenchyma",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Filament vascular system",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Pistil",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": [
+                    {
+                        "label": "Carpel",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": [
+                            {
+                                "label": "Early carpel",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Stigma",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": [
+                            {
+                                "label": "Stigma epidermis",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Stigma papilla cell",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Style",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": [
+                            {
+                                "label": "Style epidermis",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Style parenchyma",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Style vascular bundle",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Style canal cell",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Style transmitting tissue",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Plant ovary",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": [
+                            {
+                                "label": "Ovary wall",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Ovary locule",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "Plant ovary ovule",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": [
+                                    {
+                                        "label": "Ovule primordium",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": [
+                                            {
+                                                "label": "Ovule primordium parenchyma",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Female archesporial cell",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Primary parietal cell",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Primary sporogenous cell",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Nucellus",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Embryo-sac mother cell",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Embryo sac",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": [
+                                            {
+                                                "label": "Mononuclear embryo sac",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Two-nucleate embryo sac",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Four-nucleate embryo sac",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Eight-nucleate embryo sac",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": [
+                                                    {
+                                                        "label": "Polar nucleus",
+                                                        "opened": "false",
+                                                        "tissue": "Flower",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Micropylar nucleus",
+                                                        "opened": "false",
+                                                        "tissue": "Flower",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Chalazal nucleus",
+                                                        "opened": "false",
+                                                        "tissue": "Flower",
+                                                        "children": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Mature embryo sac",
+                                                "opened": "false",
+                                                "tissue": "Flower",
+                                                "children": [
+                                                    {
+                                                        "label": "Embryo sac central cell",
+                                                        "opened": "false",
+                                                        "tissue": "Flower",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Egg apparatus",
+                                                        "opened": "false",
+                                                        "tissue": "Flower",
+                                                        "children": [
+                                                            {
+                                                                "label": "Embryo sac egg cell",
+                                                                "opened": "false",
+                                                                "tissue": "Flower",
+                                                                "children": null
+                                                            },
+                                                            {
+                                                                "label": "Synergid",
+                                                                "opened": "false",
+                                                                "tissue": "Flower",
+                                                                "children": null
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "label": "Antipodal cell",
+                                                        "opened": "false",
+                                                        "tissue": "Flower",
+                                                        "children": null
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Integument",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": [
+                                    {
+                                        "label": "Outer integument",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Inner integument",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Ovary placenta",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": [
+                                    {
+                                        "label": "Ovary replum",
+                                        "opened": "false",
+                                        "tissue": "Flower",
+                                        "children": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Valve margins of pistils",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Flower meristem",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": [
+                    {
+                        "label": "Epidermis",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Cortex",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Proliferating cell",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": [
+                            {
+                                "label": "G1-phase cell",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "G1/S-phase cell",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "S-phase cell",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "S/G2-phase cell",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "G2-phase cell",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "G2/M-phase cell",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            },
+                            {
+                                "label": "M-phase cell",
+                                "opened": "false",
+                                "tissue": "Flower",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Procambium",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Cambium",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Mesophyll cell",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Phloem",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    },
+                    {
+                        "label": "Xylem parenchyma cell",
+                        "opened": "false",
+                        "tissue": "Flower",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Flower vascular system",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": null
+            },
+            {
+                "label": "Mesophyll cell",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": null
+            },
+            {
+                "label": "Floral organ abscission zone",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": null
+            },
+            {
+                "label": "Flower pedicel abscission zone",
+                "opened": "false",
+                "tissue": "Flower",
+                "children": null
+            }
+        ]
+    },
+    {
+        "label": "Root",
+        "opened": "false",
+        "tissue": "Root",
+        "children": [
+            {
+                "label": "Root epidermis",
+                "opened": "false",
+                "tissue": "Root",
+                "children": [
+                    {
+                        "label": "Non-hair root epidermal cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Root hair cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Early root hair",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Mature root hair",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Epidermal meristematic cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Epidermal cell layer of the emerging lateral root",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Root cortex",
+                "opened": "false",
+                "tissue": "Root",
+                "children": [
+                    {
+                        "label": "Early cortex",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Mature cortex",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Root exodermis",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Early exodermis",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Mature exodermis",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Root endodermis",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Endodermis and lateral root primordia responding endodermis",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Lateral root primordia responding endodermis",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Early endodermis",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Mature endodermis",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Root stele",
+                "opened": "false",
+                "tissue": "Root",
+                "children": [
+                    {
+                        "label": "Early stele",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Mature stele",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Pericycle cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Xylem pole pericycle cell",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Phloem pole pericycle cell",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Root vascular system",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Vasculature and columella",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Xylem",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": [
+                                    {
+                                        "label": "Protoxylem",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": [
+                                            {
+                                                "label": "Protoxylem-like mixed",
+                                                "opened": "false",
+                                                "tissue": "Root",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Protoxylem-like primary",
+                                                "opened": "false",
+                                                "tissue": "Root",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Metaxylem",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Xylem vessel member",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Tracheid",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Xylem fiber cell",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Xylem parenchyma cell",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Phloem",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": [
+                                    {
+                                        "label": "Protophloem",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": [
+                                            {
+                                                "label": "Protophloem-like cell",
+                                                "opened": "false",
+                                                "tissue": "Root",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Metaphloem",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Companion cell",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Sieve element",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": [
+                                            {
+                                                "label": "Protophloem sieve element",
+                                                "opened": "false",
+                                                "tissue": "Root",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Metaphloem sieve element",
+                                                "opened": "false",
+                                                "tissue": "Root",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Phloem fiber cell",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Phloem parenchyma cell",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Root stele parenchyma cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Root pith",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Early pith",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Mature pith",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Root protoderm",
+                "opened": "false",
+                "tissue": "Root",
+                "children": null
+            },
+            {
+                "label": "Root system ground meristem",
+                "opened": "false",
+                "tissue": "Root",
+                "children": null
+            },
+            {
+                "label": "Root procambium",
+                "opened": "false",
+                "tissue": "Root",
+                "children": null
+            },
+            {
+                "label": "Root apical meristem",
+                "opened": "false",
+                "tissue": "Root",
+                "children": [
+                    {
+                        "label": "Distal meristem",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Proximal meristem",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Transit amplifying cell",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Stem cell niche",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Root initial cell",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": [
+                                    {
+                                        "label": "Root cortex-endodermis initial cell",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Columella root cap initial cell",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Vascular initial cell",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Lateral root initial cell",
+                                        "opened": "false",
+                                        "tissue": "Root",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Quiescent center",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Root cap",
+                "opened": "false",
+                "tissue": "Root",
+                "children": [
+                    {
+                        "label": "Columella root cap cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Proximal columella",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Distal columella",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Lateral root cap",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": [
+                            {
+                                "label": "Distal lateral root cap",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            },
+                            {
+                                "label": "Proximal lateral root cap",
+                                "opened": "false",
+                                "tissue": "Root",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Root cap of the lateral root",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Root cap junction",
+                "opened": "false",
+                "tissue": "Root",
+                "children": null
+            },
+            {
+                "label": "Transition zone",
+                "opened": "false",
+                "tissue": "Root",
+                "children": [
+                    {
+                        "label": "Transit amplifying cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Root transition cell",
+                "opened": "false",
+                "tissue": "Root",
+                "children": null
+            },
+            {
+                "label": "Cell near stem cell niche / lateral root initial cell",
+                "opened": "false",
+                "tissue": "Root",
+                "children": null
+            },
+            {
+                "label": "Proliferating cell",
+                "opened": "false",
+                "tissue": "Root",
+                "children": [
+                    {
+                        "label": "G1-phase cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "G1/S-phase cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "S-phase cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "S/G2-phase cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "G2-phase cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "G2/M-phase cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "M-phase cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Lateral root primordium",
+                "opened": "false",
+                "tissue": "Root",
+                "children": [
+                    {
+                        "label": "Young lateral root primordium",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Pericyclic lateral root primordium",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Quiescent center transitioning stem cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Flanking cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    },
+                    {
+                        "label": "Vascular-like cell",
+                        "opened": "false",
+                        "tissue": "Root",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Base of the lateral root",
+                "opened": "false",
+                "tissue": "Root",
+                "children": null
+            },
+            {
+                "label": "Root lateral meristem",
+                "opened": "false",
+                "tissue": "Root",
+                "children": null
+            },
+            {
+                "label": "Photosynthetic cell",
+                "opened": "false",
+                "tissue": "Root",
+                "children": null
+            }
+        ]
+    },
+    {
+        "label": "Leaf",
+        "opened": "false",
+        "tissue": "Leaf",
+        "children": [
+            {
+                "label": "Leaf blade",
+                "opened": "false",
+                "tissue": "Leaf",
+                "children": [
+                    {
+                        "label": "Leaf apex",
+                        "opened": "false",
+                        "tissue": "Leaf",
+                        "children": null
+                    },
+                    {
+                        "label": "Leaf base",
+                        "opened": "false",
+                        "tissue": "Leaf",
+                        "children": [
+                            {
+                                "label": "Leaf lamina epidermis",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": [
+                                    {
+                                        "label": "Leaf lamina abaxial epidermis",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Leaf lamina adaxial epidermis",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Leaf pavement cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": [
+                                            {
+                                                "label": "Leaf abaxial pavement cell",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Leaf adaxial pavement cell",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Bulliform cell",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Leaf pavement cell with active anthocyanin biosynthesis",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Leaf pavement cell without active anthocyanin biosynthesis",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Leaf trichome",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": [
+                                            {
+                                                "label": "Macrohair",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Leaf prickle",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Bicellular hair",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Stomatal precursor",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": [
+                                            {
+                                                "label": "Stomatal initial cell",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Meristemoid",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": [
+                                                    {
+                                                        "label": "Early-stage meristemoid",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Late-stage meristemoid",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Stomatal-lineage ground cell",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Guard mother cell",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Leaf stomatal complex",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": [
+                                            {
+                                                "label": "Leaf guard cell",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": [
+                                                    {
+                                                        "label": "Young guard cell",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Subsidiary cell",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Hydathode",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Mesophyll cell",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": null
+                            },
+                            {
+                                "label": "Leaf lamina vein",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": [
+                                    {
+                                        "label": "Bundle sheath cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": [
+                                            {
+                                                "label": "Parenchyma sheath",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            },
+                                            {
+                                                "label": "Mestome sheath",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Leaf vascular system",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": [
+                                            {
+                                                "label": "Phloem",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": [
+                                                    {
+                                                        "label": "Protophloem",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Metaphloem",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Companion cell",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Phloem parenchyma cell",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Phloem fiber cell",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Sieve element",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Xylem",
+                                                "opened": "false",
+                                                "tissue": "Leaf",
+                                                "children": [
+                                                    {
+                                                        "label": "Protoxylem",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Metaxylem",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Xylem vessel member",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Xylem parenchyma cell",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Xylem fiber cell",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    },
+                                                    {
+                                                        "label": "Tracheid",
+                                                        "opened": "false",
+                                                        "tissue": "Leaf",
+                                                        "children": null
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "label": "Large parenchyma cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Leaf fiber cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Leaf protoderm",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": null
+                            },
+                            {
+                                "label": "Leaf ground meristem",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": null
+                            },
+                            {
+                                "label": "Leaf preprocambium",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": null
+                            },
+                            {
+                                "label": "Leaf procambium",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": null
+                            },
+                            {
+                                "label": "Mesophyll precursor",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": null
+                            },
+                            {
+                                "label": "Proliferating cell",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": [
+                                    {
+                                        "label": "G1-phase cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "G1/S-phase cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "S-phase cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "S/G2-phase cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "G2-phase cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "G2/M-phase cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "M-phase cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Myrosinase cell",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": null
+                            },
+                            {
+                                "label": "Leaf initial cell",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": [
+                                    {
+                                        "label": "Vascular initial cell",
+                                        "opened": "false",
+                                        "tissue": "Leaf",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Leaf senescing cell",
+                                "opened": "false",
+                                "tissue": "Leaf",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Leaf margin",
+                        "opened": "false",
+                        "tissue": "Leaf",
+                        "children": null
+                    },
+                    {
+                        "label": "Leaf abscission zone",
+                        "opened": "false",
+                        "tissue": "Leaf",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Leaf sheath",
+                "opened": "false",
+                "tissue": "Leaf",
+                "children": null
+            },
+            {
+                "label": "Leaf sheath pulvinus",
+                "opened": "false",
+                "tissue": "Leaf",
+                "children": null
+            },
+            {
+                "label": "Ligule",
+                "opened": "false",
+                "tissue": "Leaf",
+                "children": null
+            },
+            {
+                "label": "Leaf sheath auricle",
+                "opened": "false",
+                "tissue": "Leaf",
+                "children": null
+            }
+        ]
+    },
+    {
+        "label": "Seed",
+        "opened": "false",
+        "tissue": "Seed",
+        "children": [
+            {
+                "label": "Seed coat",
+                "opened": "false",
+                "tissue": "Seed",
+                "children": [
+                    {
+                        "label": "Seed coat at globular and maturation green stages",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Seed coat at linear cotyledon and maturation green stages",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Seed coat of young siliques",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Mature green seed coat",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Seed coat epidermis",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": [
+                            {
+                                "label": "Mucilage secretory cell",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Seed coat endothelium",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": [
+                            {
+                                "label": "Young endothelium cell",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "PA-synthesizing endothelium",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Testa outer integument layer 1",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Chalazal seed coat",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Photosynthetically active seed coat",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Interfascicular fibers",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Plant embryo",
+                "opened": "false",
+                "tissue": "Seed",
+                "children": [
+                    {
+                        "label": "Two-cell stage",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": [
+                            {
+                                "label": "Embryo apical cell",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Embryo basal cell",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Quadrant",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Pyriform embryo",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Groove embryo",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": [
+                            {
+                                "label": "Apical area",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Organ forming area",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Suspensor area",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Mature embryo",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": [
+                            {
+                                "label": "Radicle-plumule vascular",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Radicle",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": [
+                                    {
+                                        "label": "Radicle cortex",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Radicle vascular",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Hypocotyl",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Plant embryo cotyledon",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Plumule",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Scutellum",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": [
+                                    {
+                                        "label": "Scutellum epidermis",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Scutellum cortex",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Both ends of scutellum parenchyma",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Scutellum epidermis-cortex interlayer",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Scutellar vascular system",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Epiblast-coleorhiza region",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": [
+                                    {
+                                        "label": "Epiblast",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Embryo coleorhiza",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Epiblast-coleorhiza epidermis",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Plant embryo coleoptile",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": [
+                                    {
+                                        "label": "Coleoptile epidermis",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Coleoptile cortex",
+                                        "opened": "false",
+                                        "tissue": "Seed",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Lateral scale",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Ventral scale",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Embryo shoot apical meristem",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Endosperm",
+                "opened": "false",
+                "tissue": "Seed",
+                "children": [
+                    {
+                        "label": "Endosperm at globular and maturation green stages",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Endosperm at globular stage of the embryo",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Endosperm at linear cotyledon and maturation green stages",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Chalazal endosperm",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": [
+                            {
+                                "label": "Chalazal endosperm at globular and early heart stages",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Chalazal endosperm at preglobular stage",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Chalazal endosperm nodule-like",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Chalazal endosperm nodules",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Chalazal cyst",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Micropylar endosperm",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": [
+                            {
+                                "label": "Endosperm at globular and maturation green stages",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Endosperm at globular stage of the embryo",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Endosperm at linear cotyledon and maturation green stages",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Peripheral endosperm",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": [
+                            {
+                                "label": "Early S-phase peripheral endosperm",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Late S-phase peripheral endosperm",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "M-phase peripheral endosperm",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "M-phase peripheral endosperm with cellularization boundary",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Peripheral endosperm at the globular stage of development",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Inactive peripheral endosperm",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Potential peripheral endosperm",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            },
+                            {
+                                "label": "Energy-generating peripheral endosperm",
+                                "opened": "false",
+                                "tissue": "Seed",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Basal endosperm transfer cell",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Integument",
+                "opened": "false",
+                "tissue": "Seed",
+                "children": [
+                    {
+                        "label": "Inner integument",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    },
+                    {
+                        "label": "Outer integument",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Chalaza",
+                "opened": "false",
+                "tissue": "Seed",
+                "children": [
+                    {
+                        "label": "Chalaza at the globular stage",
+                        "opened": "false",
+                        "tissue": "Seed",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "Procambium",
+                "opened": "false",
+                "tissue": "Seed",
+                "children": null
+            },
+            {
+                "label": "Seed funicle",
+                "opened": "false",
+                "tissue": "Seed",
+                "children": null
+            },
+            {
+                "label": "Vascular strands of siliques",
+                "opened": "false",
+                "tissue": "Seed",
+                "children": null
+            },
+            {
+                "label": "Flavonol-synthesizing",
+                "opened": "false",
+                "tissue": "Seed",
+                "children": null
+            }
+        ]
+    },
+    {
+        "label": "Shoot",
+        "opened": "false",
+        "tissue": "Shoot",
+        "children": [
+            {
+                "label": "Shoot apex",
+                "opened": "false",
+                "tissue": "Shoot",
+                "children": [
+                    {
+                        "label": "Shoot apical meristem",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": [
+                            {
+                                "label": "Shoot apical meristem epidermis layer",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "Shoot apical meristem sub-epidermis layer",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "Shoot apical meristem inner layer",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "Shoot apical stem cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": [
+                                    {
+                                        "label": "Corpus initial cell",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Tunic initial cell",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Central zone",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": [
+                                    {
+                                        "label": "Organizing center",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Peripheral zone",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": [
+                                    {
+                                        "label": "Shoot protoderm",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Shoot system ground meristem",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Shoot procambium",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Axillary bud meristem",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Rib zone",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "Cambium-like transitional zone",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Vascular leaf primordium",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": [
+                            {
+                                "label": "Protoderm of leaf primordium",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "Young leaf primordium",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "Vascular leaf founder cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "Vascular leaf primordium adaxial side",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Axillary bud primordium",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Floral organ primordium",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": [
+                            {
+                                "label": "Protoderm of floral organ primordium",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Proliferating cell",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": [
+                            {
+                                "label": "G1-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "G1/S-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "S-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "S/G2-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "G2-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "G2/M-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "M-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Shoot system",
+                "opened": "false",
+                "tissue": "Shoot",
+                "children": [
+                    {
+                        "label": "Shoot system epidermis",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": [
+                            {
+                                "label": "Stomatal complex",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": [
+                                    {
+                                        "label": "Guard cell",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Shoot axis trichome",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Shoot system sub-epidermis",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Shoot system cortex",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": [
+                            {
+                                "label": "Shoot system endodermis",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Bundle sheath cell",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Myrosin cell",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Shoot system vascular system",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": [
+                            {
+                                "label": "Phloem",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": [
+                                    {
+                                        "label": "Companion cell",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Sieve element",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Phloem fiber cell",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Phloem parenchyma cell",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Xylem",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": [
+                                    {
+                                        "label": "Xylem vessel member",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Tracheid",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Xylem fiber cell",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Xylem parenchyma cell",
+                                        "opened": "false",
+                                        "tissue": "Shoot",
+                                        "children": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Shoot axis pith",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Shoot axis pith ray",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Shoot lateral meristem",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Mesophyll cell",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Young flower",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Shoot parenchyma",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    },
+                    {
+                        "label": "Proliferating cell",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": [
+                            {
+                                "label": "G1-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "G1/S-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "S-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "S/G2-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "G2-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "G2/M-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            },
+                            {
+                                "label": "M-phase cell",
+                                "opened": "false",
+                                "tissue": "Shoot",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Stressed cell",
+                        "opened": "false",
+                        "tissue": "Shoot",
+                        "children": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Stem",
+        "opened": "false",
+        "tissue": "Stem",
+        "children": [
+            {
+                "label": "Internal structure",
+                "opened": "false",
+                "tissue": "Stem",
+                "children": [
+                    {
+                        "label": "Stem epidermis",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": [
+                            {
+                                "label": "Stem epidermis long cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "Stem epidermis short cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "Stem stoma",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "Stem trichome",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Stem mechanic tissue",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": null
+                    },
+                    {
+                        "label": "Stem ground tissue",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": [
+                            {
+                                "label": "Stem cortex",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "Stem pith",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Stem vascular bundle",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": [
+                            {
+                                "label": "Xylem",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": [
+                                    {
+                                        "label": "Protoxylem",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Metaxylem",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Xylem vessel member",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Tracheid",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Xylem fiber cell",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Xylem parenchyma cell",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Phloem",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": [
+                                    {
+                                        "label": "Protophloem",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Metaphloem",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Companion cell",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Sieve element",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Phloem fiber cell",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    },
+                                    {
+                                        "label": "Phloem parenchyma cell",
+                                        "opened": "false",
+                                        "tissue": "Stem",
+                                        "children": null
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Bundle sheath cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Proliferating cell",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": [
+                            {
+                                "label": "G1-phase cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "G1/S-phase cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "S-phase cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "S/G2-phase cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "G2-phase cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "G2/M-phase cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            },
+                            {
+                                "label": "M-phase cell",
+                                "opened": "false",
+                                "tissue": "Stem",
+                                "children": null
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Photosynthetic cell",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": null
+                    }
+                ]
+            },
+            {
+                "label": "External structure",
+                "opened": "false",
+                "tissue": "Stem",
+                "children": [
+                    {
+                        "label": "Stem node",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": null
+                    },
+                    {
+                        "label": "Stem internode",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": null
+                    },
+                    {
+                        "label": "Bud",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": null
+                    },
+                    {
+                        "label": "Leaf scar",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": null
+                    },
+                    {
+                        "label": "Bundle scar",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": null
+                    },
+                    {
+                        "label": "Lenticel",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": null
+                    },
+                    {
+                        "label": "Bud scale scar",
+                        "opened": "false",
+                        "tissue": "Stem",
+                        "children": null
+                    }
+                ]
+            }
+        ]
+    }
+]
